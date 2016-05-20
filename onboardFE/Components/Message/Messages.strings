@@ -1,0 +1,96 @@
+/*
+ Messages.strings
+
+ Copyright (c) 2015 Taqtile. All rights reserved.
+ */
+
+/**************************************************
+* BEGIN strings
+* Please, if you want to add a group of strings, add
+* it alphabetically and following this format:
+ 
+ ```
+ // NAME_OF_GROUP
+ STRINGS
+ ```
+
+**************************************************/
+
+//Login
+"login.title"           = "Login";
+"login.description"     = "Digite seu email e senha para fazer login.";
+"login.forgot_password" = "Esqueceu sua senha?";
+"login.signup_button"   = "Não possui conta? Cadastre-se";
+"login.button"          = "LOGIN";
+
+//Password recovery
+"password_recovery.title"       = "Esqueci minha senha";
+"password_recovery.description" = "Digite seu email para recuperar sua senha";
+"password_recovery.button"      = "ENVIAR";
+"password_recovery.error.connection" = "Erro na conexão";
+
+// PlaceholderView
+"placeholder.work_in_progress"      = "Estamos trabalhando nessa tela.";
+"placeholder.no_connection"         = "Sem conexão à internet.";
+"placeholder.try_again"             = "Tente novamente";
+"placeholder.no_product_found"      = "Nenhum produto encontrado.";
+
+// Signup
+"signup.title"  = "Cadastro";
+"signup.button" = "CADASTRAR";
+
+// TextField labels
+"textfield.label.actual_password"  = "Senha atual";
+"textfield.label.new_password"     = "Nova senha";
+"textfield.label.login_email"      = "Seu email";
+"textfield.label.password"         = "Senha";
+"textfield.label.confirm_password" = "Confirmar senha";
+"textfield.label.name"             = "Nome completo";
+"textfield.label.cpf"              = "CPF";
+"textfield.label.rg"               = "RG";
+"textfield.label.email"            = "Email";
+"textfield.label.cep"              = "CEP";
+"textfield.label.street"           = "Logradouro";
+"textfield.label.address_number"   = "Número";
+"textfield.label.complement"       = "Complemento";
+"textfield.label.district"         = "Bairro";
+"textfield.label.city"             = "Cidade";
+"textfield.label.state"            = "Estado";
+"textfield.label.telephone"        = "Telefone";
+"textfield.label.telephone_mobile" = "Telefone celular";
+"textfield.label.phone_number"     = "Telefone fixo/consultório";
+"textfield.label.date_of_birth"    = "Data de nascimento";
+"textfield.label.gender"           = "Gênero";
+
+// TextField Placeholders
+"textfield.placeholder.actual_password"  = "Senha atual";
+"textfield.placeholder.new_password"     = "Nova senha";
+"textfield.placeholder.confirm_password" = "Confirmar senha";
+"textfield.placeholder.login_email"      = "Seu email";
+"textfield.placeholder.password"         = "Senha";
+"textfield.placeholder.name"             = "Nome completo";
+"textfield.placeholder.cpf"              = "CPF";
+"textfield.placeholder.rg"               = "RG";
+"textfield.placeholder.email"            = "Email";
+"textfield.placeholder.cep"              = "CEP";
+"textfield.placeholder.street"           = "Logradouro";
+"textfield.placeholder.address_number"   = "Número";
+"textfield.placeholder.complement"       = "Complemento";
+"textfield.placeholder.district"         = "Bairro";
+"textfield.placeholder.city"             = "Cidade";
+"textfield.placeholder.state"            = "Estado";
+"textfield.placeholder.telephone"        = "Telefone";
+"textfield.placeholder.telephone_mobile" = "Telefone celular";
+"textfield.placeholder.phone_number"     = "Telefone fixo/consultório";
+"textfield.placeholder.date_of_birth"    = "Data de nascimento";
+"textfield.placeholder.gender"           = "Gênero";
+
+// TextField Captions
+"textfield.caption.name_validation"     = "Por favor, entre com um nome válido.";
+"textfield.caption.email_validation"    = "Por favor, entre com um email válido.";
+"textfield.caption.invalid_password"    = "A senha deve ter entre 8 a 30 caracteres alfanuméricos.";
+"textfield.caption.passwords_not_equal" = "As senhas não são iguais.";
+"textfield.caption.required_field"      = "Campo obrigatório";
+/*
+* END strings
+*/

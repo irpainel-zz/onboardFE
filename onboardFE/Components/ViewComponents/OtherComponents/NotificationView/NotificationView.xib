@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1" customClass="NotificationView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="st7-v2-JDD">
+                    <rect key="frame" x="15" y="15" width="16" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="16" id="k2x-ts-4fi"/>
+                        <constraint firstAttribute="width" constant="16" id="p5u-zv-jsJ"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="stylesheet" value="NotificationView_Image_ImageView"/>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ops, algo deu errado!" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yqc-ER-iJn">
+                    <rect key="frame" x="46" y="15" width="259" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="stylesheet" value="NotificationView_Title_Label"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qgj-NY-ZEw">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="47"/>
+                    <connections>
+                        <action selector="didTouchUpInside:" destination="1" eventType="touchUpInside" id="d4x-QR-LXi"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.2784313725" green="0.83529411760000005" blue="0.3921568627" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="st7-v2-JDD" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="15" id="4h1-eE-C4g"/>
+                <constraint firstItem="yqc-ER-iJn" firstAttribute="top" secondItem="st7-v2-JDD" secondAttribute="top" id="6kY-Ii-FAO"/>
+                <constraint firstItem="Qgj-NY-ZEw" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="6rr-L4-gqR"/>
+                <constraint firstItem="st7-v2-JDD" firstAttribute="top" secondItem="1" secondAttribute="top" constant="15" id="883-Tr-y1k"/>
+                <constraint firstItem="Qgj-NY-ZEw" firstAttribute="top" secondItem="1" secondAttribute="top" id="8VD-C2-dcp"/>
+                <constraint firstAttribute="trailing" secondItem="Qgj-NY-ZEw" secondAttribute="trailing" id="N7Z-hk-hYh"/>
+                <constraint firstAttribute="trailing" secondItem="yqc-ER-iJn" secondAttribute="trailing" constant="15" id="S9L-KM-H8T"/>
+                <constraint firstAttribute="bottom" secondItem="Qgj-NY-ZEw" secondAttribute="bottom" id="YfU-FH-8ca"/>
+                <constraint firstItem="yqc-ER-iJn" firstAttribute="leading" secondItem="st7-v2-JDD" secondAttribute="trailing" constant="15" id="bna-GO-bE9"/>
+                <constraint firstAttribute="bottom" secondItem="yqc-ER-iJn" secondAttribute="bottom" constant="15" id="s7a-uO-oDg"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="st7-v2-JDD" secondAttribute="bottom" constant="15" id="w58-45-asl"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="string" keyPath="stylesheet" value="NotificationView_Container_View"/>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="img" destination="st7-v2-JDD" id="HS9-gJ-GzG"/>
+                <outlet property="lblMessage" destination="yqc-ER-iJn" id="kHk-de-LrJ"/>
+            </connections>
+            <point key="canvasLocation" x="344" y="198"/>
+        </view>
+    </objects>
+</document>

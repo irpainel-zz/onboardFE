@@ -1,0 +1,2804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A7D5756ACE6407A23C5A0D1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DE25AD8C178923F58BFB8FC /* libPods.a */; };
+		41753349CAF2F84604FA3048 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DE25AD8C178923F58BFB8FC /* libPods.a */; };
+		4DD7BADD1CEFA1F7003BC3F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7B9D61CEFA1F7003BC3F4 /* AppDelegate.m */; };
+		4DD7BADE1CEFA1F7003BC3F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7B9D61CEFA1F7003BC3F4 /* AppDelegate.m */; };
+		4DD7BADF1CEFA1F7003BC3F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7B9D61CEFA1F7003BC3F4 /* AppDelegate.m */; };
+		4DD7BAE01CEFA1F7003BC3F4 /* TQTMissingMethodImplementationException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7B9D91CEFA1F7003BC3F4 /* TQTMissingMethodImplementationException.m */; };
+		4DD7BAE11CEFA1F7003BC3F4 /* TQTMissingMethodImplementationException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7B9D91CEFA1F7003BC3F4 /* TQTMissingMethodImplementationException.m */; };
+		4DD7BAE21CEFA1F7003BC3F4 /* TQTMissingMethodImplementationException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7B9D91CEFA1F7003BC3F4 /* TQTMissingMethodImplementationException.m */; };
+		4DD7BAE31CEFA1F7003BC3F4 /* NSDate+FormattedDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7B9DE1CEFA1F7003BC3F4 /* NSDate+FormattedDate.m */; };
+		4DD7BAE41CEFA1F7003BC3F4 /* NSDate+FormattedDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7B9DE1CEFA1F7003BC3F4 /* NSDate+FormattedDate.m */; };
+		4DD7BAE51CEFA1F7003BC3F4 /* NSDate+FormattedDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7B9DE1CEFA1F7003BC3F4 /* NSDate+FormattedDate.m */; };
+		4DD7BAE61CEFA1F7003BC3F4 /* NSNumber+BrazilFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7B9E21CEFA1F7003BC3F4 /* NSNumber+BrazilFormat.m */; };
+		4DD7BAE71CEFA1F7003BC3F4 /* NSNumber+BrazilFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7B9E21CEFA1F7003BC3F4 /* NSNumber+BrazilFormat.m */; };
+		4DD7BAE81CEFA1F7003BC3F4 /* NSNumber+BrazilFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7B9E21CEFA1F7003BC3F4 /* NSNumber+BrazilFormat.m */; };
+		4DD7BAE91CEFA1F7003BC3F4 /* NSString+Clean.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7B9E61CEFA1F7003BC3F4 /* NSString+Clean.m */; };
+		4DD7BAEA1CEFA1F7003BC3F4 /* NSString+Clean.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7B9E61CEFA1F7003BC3F4 /* NSString+Clean.m */; };
+		4DD7BAEB1CEFA1F7003BC3F4 /* NSString+Clean.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7B9E61CEFA1F7003BC3F4 /* NSString+Clean.m */; };
+		4DD7BAEC1CEFA1F7003BC3F4 /* NSString+DynamicSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7B9E91CEFA1F7003BC3F4 /* NSString+DynamicSize.m */; };
+		4DD7BAED1CEFA1F7003BC3F4 /* NSString+DynamicSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7B9E91CEFA1F7003BC3F4 /* NSString+DynamicSize.m */; };
+		4DD7BAEE1CEFA1F7003BC3F4 /* NSString+DynamicSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7B9E91CEFA1F7003BC3F4 /* NSString+DynamicSize.m */; };
+		4DD7BAEF1CEFA1F7003BC3F4 /* NSString+Validations.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7B9EC1CEFA1F7003BC3F4 /* NSString+Validations.m */; };
+		4DD7BAF01CEFA1F7003BC3F4 /* NSString+Validations.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7B9EC1CEFA1F7003BC3F4 /* NSString+Validations.m */; };
+		4DD7BAF11CEFA1F7003BC3F4 /* NSString+Validations.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7B9EC1CEFA1F7003BC3F4 /* NSString+Validations.m */; };
+		4DD7BAF21CEFA1F7003BC3F4 /* UIButton+Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7B9F01CEFA1F7003BC3F4 /* UIButton+Message.m */; };
+		4DD7BAF31CEFA1F7003BC3F4 /* UIButton+Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7B9F01CEFA1F7003BC3F4 /* UIButton+Message.m */; };
+		4DD7BAF41CEFA1F7003BC3F4 /* UIButton+Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7B9F01CEFA1F7003BC3F4 /* UIButton+Message.m */; };
+		4DD7BAF51CEFA1F7003BC3F4 /* UIImage+ImageWithAlpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7B9F41CEFA1F7003BC3F4 /* UIImage+ImageWithAlpha.m */; };
+		4DD7BAF61CEFA1F7003BC3F4 /* UIImage+ImageWithAlpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7B9F41CEFA1F7003BC3F4 /* UIImage+ImageWithAlpha.m */; };
+		4DD7BAF71CEFA1F7003BC3F4 /* UIImage+ImageWithAlpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7B9F41CEFA1F7003BC3F4 /* UIImage+ImageWithAlpha.m */; };
+		4DD7BAF81CEFA1F7003BC3F4 /* UIImage+ImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7B9F71CEFA1F7003BC3F4 /* UIImage+ImageWithColor.m */; };
+		4DD7BAF91CEFA1F7003BC3F4 /* UIImage+ImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7B9F71CEFA1F7003BC3F4 /* UIImage+ImageWithColor.m */; };
+		4DD7BAFA1CEFA1F7003BC3F4 /* UIImage+ImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7B9F71CEFA1F7003BC3F4 /* UIImage+ImageWithColor.m */; };
+		4DD7BAFB1CEFA1F7003BC3F4 /* UIImageView+ImageFromUrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7B9FB1CEFA1F7003BC3F4 /* UIImageView+ImageFromUrl.m */; };
+		4DD7BAFC1CEFA1F7003BC3F4 /* UIImageView+ImageFromUrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7B9FB1CEFA1F7003BC3F4 /* UIImageView+ImageFromUrl.m */; };
+		4DD7BAFD1CEFA1F7003BC3F4 /* UIImageView+ImageFromUrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7B9FB1CEFA1F7003BC3F4 /* UIImageView+ImageFromUrl.m */; };
+		4DD7BAFE1CEFA1F7003BC3F4 /* UILabel+AttributedText.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7B9FF1CEFA1F7003BC3F4 /* UILabel+AttributedText.m */; };
+		4DD7BAFF1CEFA1F7003BC3F4 /* UILabel+AttributedText.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7B9FF1CEFA1F7003BC3F4 /* UILabel+AttributedText.m */; };
+		4DD7BB001CEFA1F7003BC3F4 /* UILabel+AttributedText.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7B9FF1CEFA1F7003BC3F4 /* UILabel+AttributedText.m */; };
+		4DD7BB011CEFA1F7003BC3F4 /* UILabel+Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA021CEFA1F7003BC3F4 /* UILabel+Message.m */; };
+		4DD7BB021CEFA1F7003BC3F4 /* UILabel+Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA021CEFA1F7003BC3F4 /* UILabel+Message.m */; };
+		4DD7BB031CEFA1F7003BC3F4 /* UILabel+Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA021CEFA1F7003BC3F4 /* UILabel+Message.m */; };
+		4DD7BB041CEFA1F7003BC3F4 /* UINavigationItem+Title.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA061CEFA1F7003BC3F4 /* UINavigationItem+Title.m */; };
+		4DD7BB051CEFA1F7003BC3F4 /* UINavigationItem+Title.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA061CEFA1F7003BC3F4 /* UINavigationItem+Title.m */; };
+		4DD7BB061CEFA1F7003BC3F4 /* UINavigationItem+Title.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA061CEFA1F7003BC3F4 /* UINavigationItem+Title.m */; };
+		4DD7BB071CEFA1F7003BC3F4 /* UIView+CenterInParent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA0A1CEFA1F7003BC3F4 /* UIView+CenterInParent.m */; };
+		4DD7BB081CEFA1F7003BC3F4 /* UIView+CenterInParent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA0A1CEFA1F7003BC3F4 /* UIView+CenterInParent.m */; };
+		4DD7BB091CEFA1F7003BC3F4 /* UIView+CenterInParent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA0A1CEFA1F7003BC3F4 /* UIView+CenterInParent.m */; };
+		4DD7BB0A1CEFA1F7003BC3F4 /* UIView+Constraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA0D1CEFA1F7003BC3F4 /* UIView+Constraints.m */; };
+		4DD7BB0B1CEFA1F7003BC3F4 /* UIView+Constraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA0D1CEFA1F7003BC3F4 /* UIView+Constraints.m */; };
+		4DD7BB0C1CEFA1F7003BC3F4 /* UIView+Constraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA0D1CEFA1F7003BC3F4 /* UIView+Constraints.m */; };
+		4DD7BB0D1CEFA1F7003BC3F4 /* UIView+TQTAttachToSuperview.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA101CEFA1F7003BC3F4 /* UIView+TQTAttachToSuperview.m */; };
+		4DD7BB0E1CEFA1F7003BC3F4 /* UIView+TQTAttachToSuperview.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA101CEFA1F7003BC3F4 /* UIView+TQTAttachToSuperview.m */; };
+		4DD7BB0F1CEFA1F7003BC3F4 /* UIView+TQTAttachToSuperview.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA101CEFA1F7003BC3F4 /* UIView+TQTAttachToSuperview.m */; };
+		4DD7BB101CEFA1F7003BC3F4 /* UIViewController+IsModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA141CEFA1F7003BC3F4 /* UIViewController+IsModal.m */; };
+		4DD7BB111CEFA1F7003BC3F4 /* UIViewController+IsModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA141CEFA1F7003BC3F4 /* UIViewController+IsModal.m */; };
+		4DD7BB121CEFA1F7003BC3F4 /* UIViewController+IsModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA141CEFA1F7003BC3F4 /* UIViewController+IsModal.m */; };
+		4DD7BB131CEFA1F7003BC3F4 /* UIViewController+SetupNavbarButtonWithTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA171CEFA1F7003BC3F4 /* UIViewController+SetupNavbarButtonWithTitle.m */; };
+		4DD7BB141CEFA1F7003BC3F4 /* UIViewController+SetupNavbarButtonWithTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA171CEFA1F7003BC3F4 /* UIViewController+SetupNavbarButtonWithTitle.m */; };
+		4DD7BB151CEFA1F7003BC3F4 /* UIViewController+SetupNavbarButtonWithTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA171CEFA1F7003BC3F4 /* UIViewController+SetupNavbarButtonWithTitle.m */; };
+		4DD7BB161CEFA1F7003BC3F4 /* BasePickerViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA1B1CEFA1F7003BC3F4 /* BasePickerViewManager.m */; };
+		4DD7BB171CEFA1F7003BC3F4 /* BasePickerViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA1B1CEFA1F7003BC3F4 /* BasePickerViewManager.m */; };
+		4DD7BB181CEFA1F7003BC3F4 /* BasePickerViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA1B1CEFA1F7003BC3F4 /* BasePickerViewManager.m */; };
+		4DD7BB191CEFA1F7003BC3F4 /* BaseTableViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA1E1CEFA1F7003BC3F4 /* BaseTableViewManager.m */; };
+		4DD7BB1A1CEFA1F7003BC3F4 /* BaseTableViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA1E1CEFA1F7003BC3F4 /* BaseTableViewManager.m */; };
+		4DD7BB1B1CEFA1F7003BC3F4 /* BaseTableViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA1E1CEFA1F7003BC3F4 /* BaseTableViewManager.m */; };
+		4DD7BB1C1CEFA1F7003BC3F4 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA201CEFA1F7003BC3F4 /* .gitkeep */; };
+		4DD7BB1D1CEFA1F7003BC3F4 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA201CEFA1F7003BC3F4 /* .gitkeep */; };
+		4DD7BB1E1CEFA1F7003BC3F4 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA201CEFA1F7003BC3F4 /* .gitkeep */; };
+		4DD7BB1F1CEFA1F7003BC3F4 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA231CEFA1F7003BC3F4 /* Message.m */; };
+		4DD7BB201CEFA1F7003BC3F4 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA231CEFA1F7003BC3F4 /* Message.m */; };
+		4DD7BB211CEFA1F7003BC3F4 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA231CEFA1F7003BC3F4 /* Message.m */; };
+		4DD7BB221CEFA1F7003BC3F4 /* Messages.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA241CEFA1F7003BC3F4 /* Messages.strings */; };
+		4DD7BB231CEFA1F7003BC3F4 /* Messages.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA241CEFA1F7003BC3F4 /* Messages.strings */; };
+		4DD7BB241CEFA1F7003BC3F4 /* Messages.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA241CEFA1F7003BC3F4 /* Messages.strings */; };
+		4DD7BB251CEFA1F7003BC3F4 /* TQTCustomCheckboxButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA291CEFA1F7003BC3F4 /* TQTCustomCheckboxButtonView.m */; };
+		4DD7BB261CEFA1F7003BC3F4 /* TQTCustomCheckboxButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA291CEFA1F7003BC3F4 /* TQTCustomCheckboxButtonView.m */; };
+		4DD7BB271CEFA1F7003BC3F4 /* TQTCustomCheckboxButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA291CEFA1F7003BC3F4 /* TQTCustomCheckboxButtonView.m */; };
+		4DD7BB281CEFA1F7003BC3F4 /* TQTCustomCheckboxButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA2A1CEFA1F7003BC3F4 /* TQTCustomCheckboxButtonView.xib */; };
+		4DD7BB291CEFA1F7003BC3F4 /* TQTCustomCheckboxButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA2A1CEFA1F7003BC3F4 /* TQTCustomCheckboxButtonView.xib */; };
+		4DD7BB2A1CEFA1F7003BC3F4 /* TQTCustomCheckboxButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA2A1CEFA1F7003BC3F4 /* TQTCustomCheckboxButtonView.xib */; };
+		4DD7BB2B1CEFA1F7003BC3F4 /* StatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA2F1CEFA1F7003BC3F4 /* StatePickerView.m */; };
+		4DD7BB2C1CEFA1F7003BC3F4 /* StatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA2F1CEFA1F7003BC3F4 /* StatePickerView.m */; };
+		4DD7BB2D1CEFA1F7003BC3F4 /* StatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA2F1CEFA1F7003BC3F4 /* StatePickerView.m */; };
+		4DD7BB2E1CEFA1F7003BC3F4 /* TQTCustomPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA311CEFA1F7003BC3F4 /* TQTCustomPickerView.m */; };
+		4DD7BB2F1CEFA1F7003BC3F4 /* TQTCustomPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA311CEFA1F7003BC3F4 /* TQTCustomPickerView.m */; };
+		4DD7BB301CEFA1F7003BC3F4 /* TQTCustomPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA311CEFA1F7003BC3F4 /* TQTCustomPickerView.m */; };
+		4DD7BB311CEFA1F7003BC3F4 /* TQTCustomRadioButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA341CEFA1F7003BC3F4 /* TQTCustomRadioButtonView.m */; };
+		4DD7BB321CEFA1F7003BC3F4 /* TQTCustomRadioButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA341CEFA1F7003BC3F4 /* TQTCustomRadioButtonView.m */; };
+		4DD7BB331CEFA1F7003BC3F4 /* TQTCustomRadioButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA341CEFA1F7003BC3F4 /* TQTCustomRadioButtonView.m */; };
+		4DD7BB341CEFA1F7003BC3F4 /* TQTCustomRadioButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA351CEFA1F7003BC3F4 /* TQTCustomRadioButtonView.xib */; };
+		4DD7BB351CEFA1F7003BC3F4 /* TQTCustomRadioButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA351CEFA1F7003BC3F4 /* TQTCustomRadioButtonView.xib */; };
+		4DD7BB361CEFA1F7003BC3F4 /* TQTCustomRadioButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA351CEFA1F7003BC3F4 /* TQTCustomRadioButtonView.xib */; };
+		4DD7BB371CEFA1F7003BC3F4 /* AddressNumberTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA3A1CEFA1F7003BC3F4 /* AddressNumberTextFieldView.m */; };
+		4DD7BB381CEFA1F7003BC3F4 /* AddressNumberTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA3A1CEFA1F7003BC3F4 /* AddressNumberTextFieldView.m */; };
+		4DD7BB391CEFA1F7003BC3F4 /* AddressNumberTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA3A1CEFA1F7003BC3F4 /* AddressNumberTextFieldView.m */; };
+		4DD7BB3A1CEFA1F7003BC3F4 /* CepTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA3D1CEFA1F7003BC3F4 /* CepTextFieldView.m */; };
+		4DD7BB3B1CEFA1F7003BC3F4 /* CepTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA3D1CEFA1F7003BC3F4 /* CepTextFieldView.m */; };
+		4DD7BB3C1CEFA1F7003BC3F4 /* CepTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA3D1CEFA1F7003BC3F4 /* CepTextFieldView.m */; };
+		4DD7BB3D1CEFA1F7003BC3F4 /* CityTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA401CEFA1F7003BC3F4 /* CityTextFieldView.m */; };
+		4DD7BB3E1CEFA1F7003BC3F4 /* CityTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA401CEFA1F7003BC3F4 /* CityTextFieldView.m */; };
+		4DD7BB3F1CEFA1F7003BC3F4 /* CityTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA401CEFA1F7003BC3F4 /* CityTextFieldView.m */; };
+		4DD7BB401CEFA1F7003BC3F4 /* ComplementTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA431CEFA1F7003BC3F4 /* ComplementTextFieldView.m */; };
+		4DD7BB411CEFA1F7003BC3F4 /* ComplementTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA431CEFA1F7003BC3F4 /* ComplementTextFieldView.m */; };
+		4DD7BB421CEFA1F7003BC3F4 /* ComplementTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA431CEFA1F7003BC3F4 /* ComplementTextFieldView.m */; };
+		4DD7BB431CEFA1F7003BC3F4 /* ConfirmPasswordTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA461CEFA1F7003BC3F4 /* ConfirmPasswordTextFieldView.m */; };
+		4DD7BB441CEFA1F7003BC3F4 /* ConfirmPasswordTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA461CEFA1F7003BC3F4 /* ConfirmPasswordTextFieldView.m */; };
+		4DD7BB451CEFA1F7003BC3F4 /* ConfirmPasswordTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA461CEFA1F7003BC3F4 /* ConfirmPasswordTextFieldView.m */; };
+		4DD7BB461CEFA1F7003BC3F4 /* CPFTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA491CEFA1F7003BC3F4 /* CPFTextFieldView.m */; };
+		4DD7BB471CEFA1F7003BC3F4 /* CPFTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA491CEFA1F7003BC3F4 /* CPFTextFieldView.m */; };
+		4DD7BB481CEFA1F7003BC3F4 /* CPFTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA491CEFA1F7003BC3F4 /* CPFTextFieldView.m */; };
+		4DD7BB491CEFA1F7003BC3F4 /* DatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA4C1CEFA1F7003BC3F4 /* DatePickerView.m */; };
+		4DD7BB4A1CEFA1F7003BC3F4 /* DatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA4C1CEFA1F7003BC3F4 /* DatePickerView.m */; };
+		4DD7BB4B1CEFA1F7003BC3F4 /* DatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA4C1CEFA1F7003BC3F4 /* DatePickerView.m */; };
+		4DD7BB4C1CEFA1F7003BC3F4 /* DistrictTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA4F1CEFA1F7003BC3F4 /* DistrictTextFieldView.m */; };
+		4DD7BB4D1CEFA1F7003BC3F4 /* DistrictTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA4F1CEFA1F7003BC3F4 /* DistrictTextFieldView.m */; };
+		4DD7BB4E1CEFA1F7003BC3F4 /* DistrictTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA4F1CEFA1F7003BC3F4 /* DistrictTextFieldView.m */; };
+		4DD7BB4F1CEFA1F7003BC3F4 /* EmailTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA521CEFA1F7003BC3F4 /* EmailTextFieldView.m */; };
+		4DD7BB501CEFA1F7003BC3F4 /* EmailTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA521CEFA1F7003BC3F4 /* EmailTextFieldView.m */; };
+		4DD7BB511CEFA1F7003BC3F4 /* EmailTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA521CEFA1F7003BC3F4 /* EmailTextFieldView.m */; };
+		4DD7BB521CEFA1F7003BC3F4 /* NameTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA551CEFA1F7003BC3F4 /* NameTextFieldView.m */; };
+		4DD7BB531CEFA1F7003BC3F4 /* NameTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA551CEFA1F7003BC3F4 /* NameTextFieldView.m */; };
+		4DD7BB541CEFA1F7003BC3F4 /* NameTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA551CEFA1F7003BC3F4 /* NameTextFieldView.m */; };
+		4DD7BB551CEFA1F7003BC3F4 /* PasswordTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA581CEFA1F7003BC3F4 /* PasswordTextFieldView.m */; };
+		4DD7BB561CEFA1F7003BC3F4 /* PasswordTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA581CEFA1F7003BC3F4 /* PasswordTextFieldView.m */; };
+		4DD7BB571CEFA1F7003BC3F4 /* PasswordTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA581CEFA1F7003BC3F4 /* PasswordTextFieldView.m */; };
+		4DD7BB581CEFA1F7003BC3F4 /* RGTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA5B1CEFA1F7003BC3F4 /* RGTextFieldView.m */; };
+		4DD7BB591CEFA1F7003BC3F4 /* RGTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA5B1CEFA1F7003BC3F4 /* RGTextFieldView.m */; };
+		4DD7BB5A1CEFA1F7003BC3F4 /* RGTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA5B1CEFA1F7003BC3F4 /* RGTextFieldView.m */; };
+		4DD7BB5B1CEFA1F7003BC3F4 /* StreetTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA5E1CEFA1F7003BC3F4 /* StreetTextFieldView.m */; };
+		4DD7BB5C1CEFA1F7003BC3F4 /* StreetTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA5E1CEFA1F7003BC3F4 /* StreetTextFieldView.m */; };
+		4DD7BB5D1CEFA1F7003BC3F4 /* StreetTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA5E1CEFA1F7003BC3F4 /* StreetTextFieldView.m */; };
+		4DD7BB5E1CEFA1F7003BC3F4 /* TelephoneTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA611CEFA1F7003BC3F4 /* TelephoneTextFieldView.m */; };
+		4DD7BB5F1CEFA1F7003BC3F4 /* TelephoneTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA611CEFA1F7003BC3F4 /* TelephoneTextFieldView.m */; };
+		4DD7BB601CEFA1F7003BC3F4 /* TelephoneTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA611CEFA1F7003BC3F4 /* TelephoneTextFieldView.m */; };
+		4DD7BB611CEFA1F7003BC3F4 /* TQTCustomTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA631CEFA1F7003BC3F4 /* TQTCustomTextFieldView.m */; };
+		4DD7BB621CEFA1F7003BC3F4 /* TQTCustomTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA631CEFA1F7003BC3F4 /* TQTCustomTextFieldView.m */; };
+		4DD7BB631CEFA1F7003BC3F4 /* TQTCustomTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA631CEFA1F7003BC3F4 /* TQTCustomTextFieldView.m */; };
+		4DD7BB641CEFA1F7003BC3F4 /* TQTCustomTextFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA641CEFA1F7003BC3F4 /* TQTCustomTextFieldView.xib */; };
+		4DD7BB651CEFA1F7003BC3F4 /* TQTCustomTextFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA641CEFA1F7003BC3F4 /* TQTCustomTextFieldView.xib */; };
+		4DD7BB661CEFA1F7003BC3F4 /* TQTCustomTextFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA641CEFA1F7003BC3F4 /* TQTCustomTextFieldView.xib */; };
+		4DD7BB671CEFA1F7003BC3F4 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA681CEFA1F7003BC3F4 /* CustomTableViewCell.m */; };
+		4DD7BB681CEFA1F7003BC3F4 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA681CEFA1F7003BC3F4 /* CustomTableViewCell.m */; };
+		4DD7BB691CEFA1F7003BC3F4 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA681CEFA1F7003BC3F4 /* CustomTableViewCell.m */; };
+		4DD7BB6A1CEFA1F7003BC3F4 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA691CEFA1F7003BC3F4 /* CustomTableViewCell.xib */; };
+		4DD7BB6B1CEFA1F7003BC3F4 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA691CEFA1F7003BC3F4 /* CustomTableViewCell.xib */; };
+		4DD7BB6C1CEFA1F7003BC3F4 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA691CEFA1F7003BC3F4 /* CustomTableViewCell.xib */; };
+		4DD7BB6D1CEFA1F7003BC3F4 /* LoadingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA6E1CEFA1F7003BC3F4 /* LoadingImageView.m */; };
+		4DD7BB6E1CEFA1F7003BC3F4 /* LoadingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA6E1CEFA1F7003BC3F4 /* LoadingImageView.m */; };
+		4DD7BB6F1CEFA1F7003BC3F4 /* LoadingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA6E1CEFA1F7003BC3F4 /* LoadingImageView.m */; };
+		4DD7BB701CEFA1F7003BC3F4 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA701CEFA1F7003BC3F4 /* LoadingView.m */; };
+		4DD7BB711CEFA1F7003BC3F4 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA701CEFA1F7003BC3F4 /* LoadingView.m */; };
+		4DD7BB721CEFA1F7003BC3F4 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA701CEFA1F7003BC3F4 /* LoadingView.m */; };
+		4DD7BB731CEFA1F7003BC3F4 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA711CEFA1F7003BC3F4 /* LoadingView.xib */; };
+		4DD7BB741CEFA1F7003BC3F4 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA711CEFA1F7003BC3F4 /* LoadingView.xib */; };
+		4DD7BB751CEFA1F7003BC3F4 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA711CEFA1F7003BC3F4 /* LoadingView.xib */; };
+		4DD7BB761CEFA1F7003BC3F4 /* NotificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA741CEFA1F7003BC3F4 /* NotificationView.m */; };
+		4DD7BB771CEFA1F7003BC3F4 /* NotificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA741CEFA1F7003BC3F4 /* NotificationView.m */; };
+		4DD7BB781CEFA1F7003BC3F4 /* NotificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA741CEFA1F7003BC3F4 /* NotificationView.m */; };
+		4DD7BB791CEFA1F7003BC3F4 /* NotificationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA751CEFA1F7003BC3F4 /* NotificationView.xib */; };
+		4DD7BB7A1CEFA1F7003BC3F4 /* NotificationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA751CEFA1F7003BC3F4 /* NotificationView.xib */; };
+		4DD7BB7B1CEFA1F7003BC3F4 /* NotificationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA751CEFA1F7003BC3F4 /* NotificationView.xib */; };
+		4DD7BB7C1CEFA1F7003BC3F4 /* PlaceholderFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA791CEFA1F7003BC3F4 /* PlaceholderFactory.m */; };
+		4DD7BB7D1CEFA1F7003BC3F4 /* PlaceholderFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA791CEFA1F7003BC3F4 /* PlaceholderFactory.m */; };
+		4DD7BB7E1CEFA1F7003BC3F4 /* PlaceholderFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA791CEFA1F7003BC3F4 /* PlaceholderFactory.m */; };
+		4DD7BB7F1CEFA1F7003BC3F4 /* PlaceholderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA7B1CEFA1F7003BC3F4 /* PlaceholderView.m */; };
+		4DD7BB801CEFA1F7003BC3F4 /* PlaceholderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA7B1CEFA1F7003BC3F4 /* PlaceholderView.m */; };
+		4DD7BB811CEFA1F7003BC3F4 /* PlaceholderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA7B1CEFA1F7003BC3F4 /* PlaceholderView.m */; };
+		4DD7BB821CEFA1F7003BC3F4 /* PlaceholderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA7C1CEFA1F7003BC3F4 /* PlaceholderView.xib */; };
+		4DD7BB831CEFA1F7003BC3F4 /* PlaceholderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA7C1CEFA1F7003BC3F4 /* PlaceholderView.xib */; };
+		4DD7BB841CEFA1F7003BC3F4 /* PlaceholderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA7C1CEFA1F7003BC3F4 /* PlaceholderView.xib */; };
+		4DD7BB851CEFA1F7003BC3F4 /* TQTBaseComponentsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA7F1CEFA1F7003BC3F4 /* TQTBaseComponentsView.m */; };
+		4DD7BB861CEFA1F7003BC3F4 /* TQTBaseComponentsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA7F1CEFA1F7003BC3F4 /* TQTBaseComponentsView.m */; };
+		4DD7BB871CEFA1F7003BC3F4 /* TQTBaseComponentsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA7F1CEFA1F7003BC3F4 /* TQTBaseComponentsView.m */; };
+		4DD7BB881CEFA1F7003BC3F4 /* TQTTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA831CEFA1F7003BC3F4 /* TQTTitleView.m */; };
+		4DD7BB891CEFA1F7003BC3F4 /* TQTTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA831CEFA1F7003BC3F4 /* TQTTitleView.m */; };
+		4DD7BB8A1CEFA1F7003BC3F4 /* TQTTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA831CEFA1F7003BC3F4 /* TQTTitleView.m */; };
+		4DD7BB8B1CEFA1F7003BC3F4 /* TQTTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA841CEFA1F7003BC3F4 /* TQTTitleView.xib */; };
+		4DD7BB8C1CEFA1F7003BC3F4 /* TQTTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA841CEFA1F7003BC3F4 /* TQTTitleView.xib */; };
+		4DD7BB8D1CEFA1F7003BC3F4 /* TQTTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA841CEFA1F7003BC3F4 /* TQTTitleView.xib */; };
+		4DD7BB8E1CEFA1F7003BC3F4 /* StateProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA891CEFA1F7003BC3F4 /* StateProvider.m */; };
+		4DD7BB8F1CEFA1F7003BC3F4 /* StateProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA891CEFA1F7003BC3F4 /* StateProvider.m */; };
+		4DD7BB901CEFA1F7003BC3F4 /* StateProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA891CEFA1F7003BC3F4 /* StateProvider.m */; };
+		4DD7BB911CEFA1F7003BC3F4 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA8B1CEFA1F7003BC3F4 /* .gitkeep */; };
+		4DD7BB921CEFA1F7003BC3F4 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA8B1CEFA1F7003BC3F4 /* .gitkeep */; };
+		4DD7BB931CEFA1F7003BC3F4 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA8B1CEFA1F7003BC3F4 /* .gitkeep */; };
+		4DD7BB941CEFA1F7003BC3F4 /* AppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA8F1CEFA1F7003BC3F4 /* AppViewController.m */; };
+		4DD7BB951CEFA1F7003BC3F4 /* AppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA8F1CEFA1F7003BC3F4 /* AppViewController.m */; };
+		4DD7BB961CEFA1F7003BC3F4 /* AppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA8F1CEFA1F7003BC3F4 /* AppViewController.m */; };
+		4DD7BB971CEFA1F7003BC3F4 /* BaseHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA921CEFA1F7003BC3F4 /* BaseHomeViewController.m */; };
+		4DD7BB981CEFA1F7003BC3F4 /* BaseHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA921CEFA1F7003BC3F4 /* BaseHomeViewController.m */; };
+		4DD7BB991CEFA1F7003BC3F4 /* BaseHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA921CEFA1F7003BC3F4 /* BaseHomeViewController.m */; };
+		4DD7BB9A1CEFA1F7003BC3F4 /* BaseHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA931CEFA1F7003BC3F4 /* BaseHomeViewController.xib */; };
+		4DD7BB9B1CEFA1F7003BC3F4 /* BaseHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA931CEFA1F7003BC3F4 /* BaseHomeViewController.xib */; };
+		4DD7BB9C1CEFA1F7003BC3F4 /* BaseHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA931CEFA1F7003BC3F4 /* BaseHomeViewController.xib */; };
+		4DD7BB9D1CEFA1F7003BC3F4 /* BaseLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA961CEFA1F7003BC3F4 /* BaseLoginViewController.m */; };
+		4DD7BB9E1CEFA1F7003BC3F4 /* BaseLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA961CEFA1F7003BC3F4 /* BaseLoginViewController.m */; };
+		4DD7BB9F1CEFA1F7003BC3F4 /* BaseLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA961CEFA1F7003BC3F4 /* BaseLoginViewController.m */; };
+		4DD7BBA01CEFA1F7003BC3F4 /* BaseLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA971CEFA1F7003BC3F4 /* BaseLoginViewController.xib */; };
+		4DD7BBA11CEFA1F7003BC3F4 /* BaseLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA971CEFA1F7003BC3F4 /* BaseLoginViewController.xib */; };
+		4DD7BBA21CEFA1F7003BC3F4 /* BaseLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA971CEFA1F7003BC3F4 /* BaseLoginViewController.xib */; };
+		4DD7BBA31CEFA1F7003BC3F4 /* BasePasswordRecoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA9A1CEFA1F7003BC3F4 /* BasePasswordRecoveryViewController.m */; };
+		4DD7BBA41CEFA1F7003BC3F4 /* BasePasswordRecoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA9A1CEFA1F7003BC3F4 /* BasePasswordRecoveryViewController.m */; };
+		4DD7BBA51CEFA1F7003BC3F4 /* BasePasswordRecoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA9A1CEFA1F7003BC3F4 /* BasePasswordRecoveryViewController.m */; };
+		4DD7BBA61CEFA1F7003BC3F4 /* BasePasswordRecoveryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA9B1CEFA1F7003BC3F4 /* BasePasswordRecoveryViewController.xib */; };
+		4DD7BBA71CEFA1F7003BC3F4 /* BasePasswordRecoveryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA9B1CEFA1F7003BC3F4 /* BasePasswordRecoveryViewController.xib */; };
+		4DD7BBA81CEFA1F7003BC3F4 /* BasePasswordRecoveryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA9B1CEFA1F7003BC3F4 /* BasePasswordRecoveryViewController.xib */; };
+		4DD7BBA91CEFA1F7003BC3F4 /* BaseHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA9D1CEFA1F7003BC3F4 /* BaseHomeViewController.xib */; };
+		4DD7BBAA1CEFA1F7003BC3F4 /* BaseHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA9D1CEFA1F7003BC3F4 /* BaseHomeViewController.xib */; };
+		4DD7BBAB1CEFA1F7003BC3F4 /* BaseHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BA9D1CEFA1F7003BC3F4 /* BaseHomeViewController.xib */; };
+		4DD7BBAC1CEFA1F7003BC3F4 /* BaseSignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA9F1CEFA1F7003BC3F4 /* BaseSignupViewController.m */; };
+		4DD7BBAD1CEFA1F7003BC3F4 /* BaseSignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA9F1CEFA1F7003BC3F4 /* BaseSignupViewController.m */; };
+		4DD7BBAE1CEFA1F7003BC3F4 /* BaseSignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BA9F1CEFA1F7003BC3F4 /* BaseSignupViewController.m */; };
+		4DD7BBAF1CEFA1F7003BC3F4 /* BaseSignupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BAA01CEFA1F7003BC3F4 /* BaseSignupViewController.xib */; };
+		4DD7BBB01CEFA1F7003BC3F4 /* BaseSignupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BAA01CEFA1F7003BC3F4 /* BaseSignupViewController.xib */; };
+		4DD7BBB11CEFA1F7003BC3F4 /* BaseSignupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BAA01CEFA1F7003BC3F4 /* BaseSignupViewController.xib */; };
+		4DD7BBB21CEFA1F7003BC3F4 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BAA31CEFA1F7003BC3F4 /* .gitkeep */; };
+		4DD7BBB31CEFA1F7003BC3F4 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BAA31CEFA1F7003BC3F4 /* .gitkeep */; };
+		4DD7BBB41CEFA1F7003BC3F4 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BAA31CEFA1F7003BC3F4 /* .gitkeep */; };
+		4DD7BBB51CEFA1F7003BC3F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BAA41CEFA1F7003BC3F4 /* Images.xcassets */; };
+		4DD7BBB61CEFA1F7003BC3F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BAA41CEFA1F7003BC3F4 /* Images.xcassets */; };
+		4DD7BBB71CEFA1F7003BC3F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BAA41CEFA1F7003BC3F4 /* Images.xcassets */; };
+		4DD7BBB81CEFA1F7003BC3F4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BAA51CEFA1F7003BC3F4 /* LaunchScreen.xib */; };
+		4DD7BBB91CEFA1F7003BC3F4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BAA51CEFA1F7003BC3F4 /* LaunchScreen.xib */; };
+		4DD7BBBA1CEFA1F7003BC3F4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BAA51CEFA1F7003BC3F4 /* LaunchScreen.xib */; };
+		4DD7BBBB1CEFA1F7003BC3F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BAA61CEFA1F7003BC3F4 /* Main.storyboard */; };
+		4DD7BBBC1CEFA1F7003BC3F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BAA61CEFA1F7003BC3F4 /* Main.storyboard */; };
+		4DD7BBBD1CEFA1F7003BC3F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BAA61CEFA1F7003BC3F4 /* Main.storyboard */; };
+		4DD7BBBE1CEFA1F7003BC3F4 /* TQTButtonStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BAAC1CEFA1F7003BC3F4 /* TQTButtonStylesheet.m */; };
+		4DD7BBBF1CEFA1F7003BC3F4 /* TQTButtonStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BAAC1CEFA1F7003BC3F4 /* TQTButtonStylesheet.m */; };
+		4DD7BBC01CEFA1F7003BC3F4 /* TQTButtonStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BAAC1CEFA1F7003BC3F4 /* TQTButtonStylesheet.m */; };
+		4DD7BBC11CEFA1F7003BC3F4 /* TQTCustomCheckboxButtonViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BAB01CEFA1F7003BC3F4 /* TQTCustomCheckboxButtonViewStylesheet.m */; };
+		4DD7BBC21CEFA1F7003BC3F4 /* TQTCustomCheckboxButtonViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BAB01CEFA1F7003BC3F4 /* TQTCustomCheckboxButtonViewStylesheet.m */; };
+		4DD7BBC31CEFA1F7003BC3F4 /* TQTCustomCheckboxButtonViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BAB01CEFA1F7003BC3F4 /* TQTCustomCheckboxButtonViewStylesheet.m */; };
+		4DD7BBC41CEFA1F7003BC3F4 /* TQTCustomRadioButtonViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BAB31CEFA1F7003BC3F4 /* TQTCustomRadioButtonViewStylesheet.m */; };
+		4DD7BBC51CEFA1F7003BC3F4 /* TQTCustomRadioButtonViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BAB31CEFA1F7003BC3F4 /* TQTCustomRadioButtonViewStylesheet.m */; };
+		4DD7BBC61CEFA1F7003BC3F4 /* TQTCustomRadioButtonViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BAB31CEFA1F7003BC3F4 /* TQTCustomRadioButtonViewStylesheet.m */; };
+		4DD7BBC71CEFA1F7003BC3F4 /* TQTCustomTextFieldViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BAB61CEFA1F7003BC3F4 /* TQTCustomTextFieldViewStylesheet.m */; };
+		4DD7BBC81CEFA1F7003BC3F4 /* TQTCustomTextFieldViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BAB61CEFA1F7003BC3F4 /* TQTCustomTextFieldViewStylesheet.m */; };
+		4DD7BBC91CEFA1F7003BC3F4 /* TQTCustomTextFieldViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BAB61CEFA1F7003BC3F4 /* TQTCustomTextFieldViewStylesheet.m */; };
+		4DD7BBCA1CEFA1F7003BC3F4 /* SampleListItemContentChildViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BABA1CEFA1F7003BC3F4 /* SampleListItemContentChildViewStylesheet.m */; };
+		4DD7BBCB1CEFA1F7003BC3F4 /* SampleListItemContentChildViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BABA1CEFA1F7003BC3F4 /* SampleListItemContentChildViewStylesheet.m */; };
+		4DD7BBCC1CEFA1F7003BC3F4 /* SampleListItemContentChildViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BABA1CEFA1F7003BC3F4 /* SampleListItemContentChildViewStylesheet.m */; };
+		4DD7BBCD1CEFA1F7003BC3F4 /* LoadingViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BABE1CEFA1F7003BC3F4 /* LoadingViewStylesheet.m */; };
+		4DD7BBCE1CEFA1F7003BC3F4 /* LoadingViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BABE1CEFA1F7003BC3F4 /* LoadingViewStylesheet.m */; };
+		4DD7BBCF1CEFA1F7003BC3F4 /* LoadingViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BABE1CEFA1F7003BC3F4 /* LoadingViewStylesheet.m */; };
+		4DD7BBD01CEFA1F7003BC3F4 /* NotificationViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BAC11CEFA1F7003BC3F4 /* NotificationViewStylesheet.m */; };
+		4DD7BBD11CEFA1F7003BC3F4 /* NotificationViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BAC11CEFA1F7003BC3F4 /* NotificationViewStylesheet.m */; };
+		4DD7BBD21CEFA1F7003BC3F4 /* NotificationViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BAC11CEFA1F7003BC3F4 /* NotificationViewStylesheet.m */; };
+		4DD7BBD31CEFA1F7003BC3F4 /* PlaceholderStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BAC41CEFA1F7003BC3F4 /* PlaceholderStylesheet.m */; };
+		4DD7BBD41CEFA1F7003BC3F4 /* PlaceholderStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BAC41CEFA1F7003BC3F4 /* PlaceholderStylesheet.m */; };
+		4DD7BBD51CEFA1F7003BC3F4 /* PlaceholderStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BAC41CEFA1F7003BC3F4 /* PlaceholderStylesheet.m */; };
+		4DD7BBD61CEFA1F8003BC3F4 /* TQTViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BAC71CEFA1F7003BC3F4 /* TQTViewStylesheet.m */; };
+		4DD7BBD71CEFA1F8003BC3F4 /* TQTViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BAC71CEFA1F7003BC3F4 /* TQTViewStylesheet.m */; };
+		4DD7BBD81CEFA1F8003BC3F4 /* TQTViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BAC71CEFA1F7003BC3F4 /* TQTViewStylesheet.m */; };
+		4DD7BBD91CEFA1F8003BC3F4 /* TQTBaseStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BACA1CEFA1F7003BC3F4 /* TQTBaseStylesheet.m */; };
+		4DD7BBDA1CEFA1F8003BC3F4 /* TQTBaseStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BACA1CEFA1F7003BC3F4 /* TQTBaseStylesheet.m */; };
+		4DD7BBDB1CEFA1F8003BC3F4 /* TQTBaseStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BACA1CEFA1F7003BC3F4 /* TQTBaseStylesheet.m */; };
+		4DD7BBDC1CEFA1F8003BC3F4 /* TQTTypographyStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BACD1CEFA1F7003BC3F4 /* TQTTypographyStylesheet.m */; };
+		4DD7BBDD1CEFA1F8003BC3F4 /* TQTTypographyStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BACD1CEFA1F7003BC3F4 /* TQTTypographyStylesheet.m */; };
+		4DD7BBDE1CEFA1F8003BC3F4 /* TQTTypographyStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BACD1CEFA1F7003BC3F4 /* TQTTypographyStylesheet.m */; };
+		4DD7BBDF1CEFA1F8003BC3F4 /* TQTStylesheetImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BACF1CEFA1F7003BC3F4 /* TQTStylesheetImporter.m */; };
+		4DD7BBE01CEFA1F8003BC3F4 /* TQTStylesheetImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BACF1CEFA1F7003BC3F4 /* TQTStylesheetImporter.m */; };
+		4DD7BBE11CEFA1F8003BC3F4 /* TQTStylesheetImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BACF1CEFA1F7003BC3F4 /* TQTStylesheetImporter.m */; };
+		4DD7BBE21CEFA1F8003BC3F4 /* TQTStylesheetImports.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BAD11CEFA1F7003BC3F4 /* TQTStylesheetImports.m */; };
+		4DD7BBE31CEFA1F8003BC3F4 /* TQTStylesheetImports.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BAD11CEFA1F7003BC3F4 /* TQTStylesheetImports.m */; };
+		4DD7BBE41CEFA1F8003BC3F4 /* TQTStylesheetImports.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BAD11CEFA1F7003BC3F4 /* TQTStylesheetImports.m */; };
+		4DD7BBE51CEFA1F8003BC3F4 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BAD71CEFA1F7003BC3F4 /* Constants.m */; };
+		4DD7BBE61CEFA1F8003BC3F4 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BAD71CEFA1F7003BC3F4 /* Constants.m */; };
+		4DD7BBE71CEFA1F8003BC3F4 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BAD71CEFA1F7003BC3F4 /* Constants.m */; };
+		4DD7BBE81CEFA1F8003BC3F4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BADB1CEFA1F7003BC3F4 /* Info.plist */; };
+		4DD7BBE91CEFA1F8003BC3F4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BADB1CEFA1F7003BC3F4 /* Info.plist */; };
+		4DD7BBEA1CEFA1F8003BC3F4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BADB1CEFA1F7003BC3F4 /* Info.plist */; };
+		4DD7BBEB1CEFA1F8003BC3F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BADC1CEFA1F7003BC3F4 /* main.m */; };
+		4DD7BBEC1CEFA1F8003BC3F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BADC1CEFA1F7003BC3F4 /* main.m */; };
+		4DD7BBED1CEFA1F8003BC3F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BADC1CEFA1F7003BC3F4 /* main.m */; };
+		4DD7BC301CEFA21A003BC3F4 /* MainGuide.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BBEF1CEFA21A003BC3F4 /* MainGuide.storyboard */; };
+		4DD7BC311CEFA21A003BC3F4 /* MainGuide.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BBEF1CEFA21A003BC3F4 /* MainGuide.storyboard */; };
+		4DD7BC321CEFA21A003BC3F4 /* MainGuide.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BBEF1CEFA21A003BC3F4 /* MainGuide.storyboard */; };
+		4DD7BC331CEFA21A003BC3F4 /* TQTColorSwatchesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BBF41CEFA21A003BC3F4 /* TQTColorSwatchesViewController.m */; };
+		4DD7BC341CEFA21A003BC3F4 /* TQTColorSwatchesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BBF41CEFA21A003BC3F4 /* TQTColorSwatchesViewController.m */; };
+		4DD7BC351CEFA21A003BC3F4 /* TQTColorSwatchesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BBF41CEFA21A003BC3F4 /* TQTColorSwatchesViewController.m */; };
+		4DD7BC361CEFA21A003BC3F4 /* TQTComponentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BBF61CEFA21A003BC3F4 /* TQTComponentsViewController.m */; };
+		4DD7BC371CEFA21A003BC3F4 /* TQTComponentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BBF61CEFA21A003BC3F4 /* TQTComponentsViewController.m */; };
+		4DD7BC381CEFA21A003BC3F4 /* TQTComponentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BBF61CEFA21A003BC3F4 /* TQTComponentsViewController.m */; };
+		4DD7BC391CEFA21A003BC3F4 /* TQTComponentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BBF71CEFA21A003BC3F4 /* TQTComponentsViewController.xib */; };
+		4DD7BC3A1CEFA21A003BC3F4 /* TQTComponentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BBF71CEFA21A003BC3F4 /* TQTComponentsViewController.xib */; };
+		4DD7BC3B1CEFA21A003BC3F4 /* TQTComponentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BBF71CEFA21A003BC3F4 /* TQTComponentsViewController.xib */; };
+		4DD7BC3C1CEFA21A003BC3F4 /* TQTControlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BBFA1CEFA21A003BC3F4 /* TQTControlsViewController.m */; };
+		4DD7BC3D1CEFA21A003BC3F4 /* TQTControlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BBFA1CEFA21A003BC3F4 /* TQTControlsViewController.m */; };
+		4DD7BC3E1CEFA21A003BC3F4 /* TQTControlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BBFA1CEFA21A003BC3F4 /* TQTControlsViewController.m */; };
+		4DD7BC3F1CEFA21A003BC3F4 /* GuideHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BBFE1CEFA21A003BC3F4 /* GuideHomeViewController.m */; };
+		4DD7BC401CEFA21A003BC3F4 /* GuideHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BBFE1CEFA21A003BC3F4 /* GuideHomeViewController.m */; };
+		4DD7BC411CEFA21A003BC3F4 /* GuideHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BBFE1CEFA21A003BC3F4 /* GuideHomeViewController.m */; };
+		4DD7BC421CEFA21A003BC3F4 /* GuideLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC011CEFA21A003BC3F4 /* GuideLoginViewController.m */; };
+		4DD7BC431CEFA21A003BC3F4 /* GuideLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC011CEFA21A003BC3F4 /* GuideLoginViewController.m */; };
+		4DD7BC441CEFA21A003BC3F4 /* GuideLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC011CEFA21A003BC3F4 /* GuideLoginViewController.m */; };
+		4DD7BC451CEFA21A003BC3F4 /* GuidePasswordRecoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC041CEFA21A003BC3F4 /* GuidePasswordRecoveryViewController.m */; };
+		4DD7BC461CEFA21A003BC3F4 /* GuidePasswordRecoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC041CEFA21A003BC3F4 /* GuidePasswordRecoveryViewController.m */; };
+		4DD7BC471CEFA21A003BC3F4 /* GuidePasswordRecoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC041CEFA21A003BC3F4 /* GuidePasswordRecoveryViewController.m */; };
+		4DD7BC481CEFA21A003BC3F4 /* GuideSignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC071CEFA21A003BC3F4 /* GuideSignupViewController.m */; };
+		4DD7BC491CEFA21A003BC3F4 /* GuideSignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC071CEFA21A003BC3F4 /* GuideSignupViewController.m */; };
+		4DD7BC4A1CEFA21A003BC3F4 /* GuideSignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC071CEFA21A003BC3F4 /* GuideSignupViewController.m */; };
+		4DD7BC4B1CEFA21A003BC3F4 /* TQTDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC091CEFA21A003BC3F4 /* TQTDemoViewController.m */; };
+		4DD7BC4C1CEFA21A003BC3F4 /* TQTDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC091CEFA21A003BC3F4 /* TQTDemoViewController.m */; };
+		4DD7BC4D1CEFA21A003BC3F4 /* TQTDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC091CEFA21A003BC3F4 /* TQTDemoViewController.m */; };
+		4DD7BC4E1CEFA21A003BC3F4 /* TQTCustomTextfieldsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC0D1CEFA21A003BC3F4 /* TQTCustomTextfieldsViewController.m */; };
+		4DD7BC4F1CEFA21A003BC3F4 /* TQTCustomTextfieldsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC0D1CEFA21A003BC3F4 /* TQTCustomTextfieldsViewController.m */; };
+		4DD7BC501CEFA21A003BC3F4 /* TQTCustomTextfieldsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC0D1CEFA21A003BC3F4 /* TQTCustomTextfieldsViewController.m */; };
+		4DD7BC511CEFA21A003BC3F4 /* TQTFormsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC0F1CEFA21A003BC3F4 /* TQTFormsViewController.m */; };
+		4DD7BC521CEFA21A003BC3F4 /* TQTFormsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC0F1CEFA21A003BC3F4 /* TQTFormsViewController.m */; };
+		4DD7BC531CEFA21A003BC3F4 /* TQTFormsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC0F1CEFA21A003BC3F4 /* TQTFormsViewController.m */; };
+		4DD7BC541CEFA21A003BC3F4 /* TQTListsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC121CEFA21A003BC3F4 /* TQTListsViewController.m */; };
+		4DD7BC551CEFA21A003BC3F4 /* TQTListsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC121CEFA21A003BC3F4 /* TQTListsViewController.m */; };
+		4DD7BC561CEFA21A003BC3F4 /* TQTListsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC121CEFA21A003BC3F4 /* TQTListsViewController.m */; };
+		4DD7BC571CEFA21A003BC3F4 /* TQTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC151CEFA21A003BC3F4 /* TQTTableViewController.m */; };
+		4DD7BC581CEFA21A003BC3F4 /* TQTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC151CEFA21A003BC3F4 /* TQTTableViewController.m */; };
+		4DD7BC591CEFA21A003BC3F4 /* TQTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC151CEFA21A003BC3F4 /* TQTTableViewController.m */; };
+		4DD7BC5A1CEFA21A003BC3F4 /* TQTOtherComponentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC181CEFA21A003BC3F4 /* TQTOtherComponentsViewController.m */; };
+		4DD7BC5B1CEFA21A003BC3F4 /* TQTOtherComponentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC181CEFA21A003BC3F4 /* TQTOtherComponentsViewController.m */; };
+		4DD7BC5C1CEFA21A003BC3F4 /* TQTOtherComponentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC181CEFA21A003BC3F4 /* TQTOtherComponentsViewController.m */; };
+		4DD7BC5D1CEFA21A003BC3F4 /* TQTProvidersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC1B1CEFA21A003BC3F4 /* TQTProvidersViewController.m */; };
+		4DD7BC5E1CEFA21A003BC3F4 /* TQTProvidersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC1B1CEFA21A003BC3F4 /* TQTProvidersViewController.m */; };
+		4DD7BC5F1CEFA21A003BC3F4 /* TQTProvidersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC1B1CEFA21A003BC3F4 /* TQTProvidersViewController.m */; };
+		4DD7BC601CEFA21A003BC3F4 /* TQTTypographyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC1E1CEFA21A003BC3F4 /* TQTTypographyViewController.m */; };
+		4DD7BC611CEFA21A003BC3F4 /* TQTTypographyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC1E1CEFA21A003BC3F4 /* TQTTypographyViewController.m */; };
+		4DD7BC621CEFA21A003BC3F4 /* TQTTypographyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC1E1CEFA21A003BC3F4 /* TQTTypographyViewController.m */; };
+		4DD7BC631CEFA21A003BC3F4 /* TQTViewControllersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC211CEFA21A003BC3F4 /* TQTViewControllersViewController.m */; };
+		4DD7BC641CEFA21A003BC3F4 /* TQTViewControllersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC211CEFA21A003BC3F4 /* TQTViewControllersViewController.m */; };
+		4DD7BC651CEFA21A003BC3F4 /* TQTViewControllersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC211CEFA21A003BC3F4 /* TQTViewControllersViewController.m */; };
+		4DD7BC661CEFA21A003BC3F4 /* TQTGuideTableViewDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC231CEFA21A003BC3F4 /* TQTGuideTableViewDataModel.m */; };
+		4DD7BC671CEFA21A003BC3F4 /* TQTGuideTableViewDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC231CEFA21A003BC3F4 /* TQTGuideTableViewDataModel.m */; };
+		4DD7BC681CEFA21A003BC3F4 /* TQTGuideTableViewDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC231CEFA21A003BC3F4 /* TQTGuideTableViewDataModel.m */; };
+		4DD7BC691CEFA21A003BC3F4 /* TQTGuideSubtitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC271CEFA21A003BC3F4 /* TQTGuideSubtitleView.m */; };
+		4DD7BC6A1CEFA21A003BC3F4 /* TQTGuideSubtitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC271CEFA21A003BC3F4 /* TQTGuideSubtitleView.m */; };
+		4DD7BC6B1CEFA21A003BC3F4 /* TQTGuideSubtitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC271CEFA21A003BC3F4 /* TQTGuideSubtitleView.m */; };
+		4DD7BC6C1CEFA21A003BC3F4 /* TQTGuideSubtitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BC281CEFA21A003BC3F4 /* TQTGuideSubtitleView.xib */; };
+		4DD7BC6D1CEFA21A003BC3F4 /* TQTGuideSubtitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BC281CEFA21A003BC3F4 /* TQTGuideSubtitleView.xib */; };
+		4DD7BC6E1CEFA21A003BC3F4 /* TQTGuideSubtitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BC281CEFA21A003BC3F4 /* TQTGuideSubtitleView.xib */; };
+		4DD7BC6F1CEFA21A003BC3F4 /* TQTGuideTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC2B1CEFA21A003BC3F4 /* TQTGuideTitleView.m */; };
+		4DD7BC701CEFA21A003BC3F4 /* TQTGuideTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC2B1CEFA21A003BC3F4 /* TQTGuideTitleView.m */; };
+		4DD7BC711CEFA21A003BC3F4 /* TQTGuideTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC2B1CEFA21A003BC3F4 /* TQTGuideTitleView.m */; };
+		4DD7BC721CEFA21A003BC3F4 /* TQTGuideTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BC2C1CEFA21A003BC3F4 /* TQTGuideTitleView.xib */; };
+		4DD7BC731CEFA21A003BC3F4 /* TQTGuideTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BC2C1CEFA21A003BC3F4 /* TQTGuideTitleView.xib */; };
+		4DD7BC741CEFA21A003BC3F4 /* TQTGuideTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BC2C1CEFA21A003BC3F4 /* TQTGuideTitleView.xib */; };
+		4DD7BC751CEFA21A003BC3F4 /* TQTGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC2E1CEFA21A003BC3F4 /* TQTGuideViewController.m */; };
+		4DD7BC761CEFA21A003BC3F4 /* TQTGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC2E1CEFA21A003BC3F4 /* TQTGuideViewController.m */; };
+		4DD7BC771CEFA21A003BC3F4 /* TQTGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC2E1CEFA21A003BC3F4 /* TQTGuideViewController.m */; };
+		4DD7BC781CEFA21A003BC3F4 /* TQTGuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BC2F1CEFA21A003BC3F4 /* TQTGuideViewController.xib */; };
+		4DD7BC791CEFA21A003BC3F4 /* TQTGuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BC2F1CEFA21A003BC3F4 /* TQTGuideViewController.xib */; };
+		4DD7BC7A1CEFA21A003BC3F4 /* TQTGuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BC2F1CEFA21A003BC3F4 /* TQTGuideViewController.xib */; };
+		4DD7BC7D1CEFA7C5003BC3F4 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC7C1CEFA7C5003BC3F4 /* HeaderView.m */; };
+		4DD7BC7E1CEFA7C5003BC3F4 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC7C1CEFA7C5003BC3F4 /* HeaderView.m */; };
+		4DD7BC7F1CEFA7C5003BC3F4 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7BC7C1CEFA7C5003BC3F4 /* HeaderView.m */; };
+		4DD7BC821CEFA88E003BC3F4 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BC811CEFA88E003BC3F4 /* HeaderView.xib */; };
+		4DD7BC831CEFA88E003BC3F4 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BC811CEFA88E003BC3F4 /* HeaderView.xib */; };
+		4DD7BC841CEFA88E003BC3F4 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7BC811CEFA88E003BC3F4 /* HeaderView.xib */; };
+		EDFA9BA0C465C4262FEF7E42 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DE25AD8C178923F58BFB8FC /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DE25AD8C178923F58BFB8FC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3790B0CA373A572E165522D3 /* Pods.release-production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods.release-production.xcconfig"; path = "Pods/Target Support Files/Pods/Pods.release-production.xcconfig"; sourceTree = "<group>"; };
+		4D541BAD1B62E52500985143 /* GD-onboardFE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GD-onboardFE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D87A8181C2B281300DB3C10 /* DemoD-onboardFE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DemoD-onboardFE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD7B9D51CEFA1F7003BC3F4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4DD7B9D61CEFA1F7003BC3F4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4DD7B9D81CEFA1F7003BC3F4 /* TQTMissingMethodImplementationException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTMissingMethodImplementationException.h; sourceTree = "<group>"; };
+		4DD7B9D91CEFA1F7003BC3F4 /* TQTMissingMethodImplementationException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTMissingMethodImplementationException.m; sourceTree = "<group>"; };
+		4DD7B9DD1CEFA1F7003BC3F4 /* NSDate+FormattedDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+FormattedDate.h"; sourceTree = "<group>"; };
+		4DD7B9DE1CEFA1F7003BC3F4 /* NSDate+FormattedDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+FormattedDate.m"; sourceTree = "<group>"; };
+		4DD7B9E11CEFA1F7003BC3F4 /* NSNumber+BrazilFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+BrazilFormat.h"; sourceTree = "<group>"; };
+		4DD7B9E21CEFA1F7003BC3F4 /* NSNumber+BrazilFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+BrazilFormat.m"; sourceTree = "<group>"; };
+		4DD7B9E51CEFA1F7003BC3F4 /* NSString+Clean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Clean.h"; sourceTree = "<group>"; };
+		4DD7B9E61CEFA1F7003BC3F4 /* NSString+Clean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Clean.m"; sourceTree = "<group>"; };
+		4DD7B9E81CEFA1F7003BC3F4 /* NSString+DynamicSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DynamicSize.h"; sourceTree = "<group>"; };
+		4DD7B9E91CEFA1F7003BC3F4 /* NSString+DynamicSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DynamicSize.m"; sourceTree = "<group>"; };
+		4DD7B9EB1CEFA1F7003BC3F4 /* NSString+Validations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Validations.h"; sourceTree = "<group>"; };
+		4DD7B9EC1CEFA1F7003BC3F4 /* NSString+Validations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Validations.m"; sourceTree = "<group>"; };
+		4DD7B9EF1CEFA1F7003BC3F4 /* UIButton+Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Message.h"; sourceTree = "<group>"; };
+		4DD7B9F01CEFA1F7003BC3F4 /* UIButton+Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Message.m"; sourceTree = "<group>"; };
+		4DD7B9F31CEFA1F7003BC3F4 /* UIImage+ImageWithAlpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithAlpha.h"; sourceTree = "<group>"; };
+		4DD7B9F41CEFA1F7003BC3F4 /* UIImage+ImageWithAlpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithAlpha.m"; sourceTree = "<group>"; };
+		4DD7B9F61CEFA1F7003BC3F4 /* UIImage+ImageWithColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithColor.h"; sourceTree = "<group>"; };
+		4DD7B9F71CEFA1F7003BC3F4 /* UIImage+ImageWithColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithColor.m"; sourceTree = "<group>"; };
+		4DD7B9FA1CEFA1F7003BC3F4 /* UIImageView+ImageFromUrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ImageFromUrl.h"; sourceTree = "<group>"; };
+		4DD7B9FB1CEFA1F7003BC3F4 /* UIImageView+ImageFromUrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ImageFromUrl.m"; sourceTree = "<group>"; };
+		4DD7B9FE1CEFA1F7003BC3F4 /* UILabel+AttributedText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+AttributedText.h"; sourceTree = "<group>"; };
+		4DD7B9FF1CEFA1F7003BC3F4 /* UILabel+AttributedText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AttributedText.m"; sourceTree = "<group>"; };
+		4DD7BA011CEFA1F7003BC3F4 /* UILabel+Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Message.h"; sourceTree = "<group>"; };
+		4DD7BA021CEFA1F7003BC3F4 /* UILabel+Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Message.m"; sourceTree = "<group>"; };
+		4DD7BA051CEFA1F7003BC3F4 /* UINavigationItem+Title.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+Title.h"; sourceTree = "<group>"; };
+		4DD7BA061CEFA1F7003BC3F4 /* UINavigationItem+Title.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+Title.m"; sourceTree = "<group>"; };
+		4DD7BA091CEFA1F7003BC3F4 /* UIView+CenterInParent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CenterInParent.h"; sourceTree = "<group>"; };
+		4DD7BA0A1CEFA1F7003BC3F4 /* UIView+CenterInParent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CenterInParent.m"; sourceTree = "<group>"; };
+		4DD7BA0C1CEFA1F7003BC3F4 /* UIView+Constraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Constraints.h"; sourceTree = "<group>"; };
+		4DD7BA0D1CEFA1F7003BC3F4 /* UIView+Constraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Constraints.m"; sourceTree = "<group>"; };
+		4DD7BA0F1CEFA1F7003BC3F4 /* UIView+TQTAttachToSuperview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TQTAttachToSuperview.h"; sourceTree = "<group>"; };
+		4DD7BA101CEFA1F7003BC3F4 /* UIView+TQTAttachToSuperview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TQTAttachToSuperview.m"; sourceTree = "<group>"; };
+		4DD7BA131CEFA1F7003BC3F4 /* UIViewController+IsModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+IsModal.h"; sourceTree = "<group>"; };
+		4DD7BA141CEFA1F7003BC3F4 /* UIViewController+IsModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+IsModal.m"; sourceTree = "<group>"; };
+		4DD7BA161CEFA1F7003BC3F4 /* UIViewController+SetupNavbarButtonWithTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SetupNavbarButtonWithTitle.h"; sourceTree = "<group>"; };
+		4DD7BA171CEFA1F7003BC3F4 /* UIViewController+SetupNavbarButtonWithTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SetupNavbarButtonWithTitle.m"; sourceTree = "<group>"; };
+		4DD7BA1A1CEFA1F7003BC3F4 /* BasePickerViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePickerViewManager.h; sourceTree = "<group>"; };
+		4DD7BA1B1CEFA1F7003BC3F4 /* BasePickerViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasePickerViewManager.m; sourceTree = "<group>"; };
+		4DD7BA1D1CEFA1F7003BC3F4 /* BaseTableViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewManager.h; sourceTree = "<group>"; };
+		4DD7BA1E1CEFA1F7003BC3F4 /* BaseTableViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewManager.m; sourceTree = "<group>"; };
+		4DD7BA201CEFA1F7003BC3F4 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		4DD7BA221CEFA1F7003BC3F4 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		4DD7BA231CEFA1F7003BC3F4 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		4DD7BA241CEFA1F7003BC3F4 /* Messages.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Messages.strings; sourceTree = "<group>"; };
+		4DD7BA281CEFA1F7003BC3F4 /* TQTCustomCheckboxButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTCustomCheckboxButtonView.h; sourceTree = "<group>"; };
+		4DD7BA291CEFA1F7003BC3F4 /* TQTCustomCheckboxButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTCustomCheckboxButtonView.m; sourceTree = "<group>"; };
+		4DD7BA2A1CEFA1F7003BC3F4 /* TQTCustomCheckboxButtonView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TQTCustomCheckboxButtonView.xib; sourceTree = "<group>"; };
+		4DD7BA2E1CEFA1F7003BC3F4 /* StatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatePickerView.h; sourceTree = "<group>"; };
+		4DD7BA2F1CEFA1F7003BC3F4 /* StatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatePickerView.m; sourceTree = "<group>"; };
+		4DD7BA301CEFA1F7003BC3F4 /* TQTCustomPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTCustomPickerView.h; sourceTree = "<group>"; };
+		4DD7BA311CEFA1F7003BC3F4 /* TQTCustomPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTCustomPickerView.m; sourceTree = "<group>"; };
+		4DD7BA331CEFA1F7003BC3F4 /* TQTCustomRadioButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTCustomRadioButtonView.h; sourceTree = "<group>"; };
+		4DD7BA341CEFA1F7003BC3F4 /* TQTCustomRadioButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTCustomRadioButtonView.m; sourceTree = "<group>"; };
+		4DD7BA351CEFA1F7003BC3F4 /* TQTCustomRadioButtonView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TQTCustomRadioButtonView.xib; sourceTree = "<group>"; };
+		4DD7BA391CEFA1F7003BC3F4 /* AddressNumberTextFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressNumberTextFieldView.h; sourceTree = "<group>"; };
+		4DD7BA3A1CEFA1F7003BC3F4 /* AddressNumberTextFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressNumberTextFieldView.m; sourceTree = "<group>"; };
+		4DD7BA3C1CEFA1F7003BC3F4 /* CepTextFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CepTextFieldView.h; sourceTree = "<group>"; };
+		4DD7BA3D1CEFA1F7003BC3F4 /* CepTextFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CepTextFieldView.m; sourceTree = "<group>"; };
+		4DD7BA3F1CEFA1F7003BC3F4 /* CityTextFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityTextFieldView.h; sourceTree = "<group>"; };
+		4DD7BA401CEFA1F7003BC3F4 /* CityTextFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityTextFieldView.m; sourceTree = "<group>"; };
+		4DD7BA421CEFA1F7003BC3F4 /* ComplementTextFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComplementTextFieldView.h; sourceTree = "<group>"; };
+		4DD7BA431CEFA1F7003BC3F4 /* ComplementTextFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComplementTextFieldView.m; sourceTree = "<group>"; };
+		4DD7BA451CEFA1F7003BC3F4 /* ConfirmPasswordTextFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfirmPasswordTextFieldView.h; sourceTree = "<group>"; };
+		4DD7BA461CEFA1F7003BC3F4 /* ConfirmPasswordTextFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfirmPasswordTextFieldView.m; sourceTree = "<group>"; };
+		4DD7BA481CEFA1F7003BC3F4 /* CPFTextFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPFTextFieldView.h; sourceTree = "<group>"; };
+		4DD7BA491CEFA1F7003BC3F4 /* CPFTextFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPFTextFieldView.m; sourceTree = "<group>"; };
+		4DD7BA4B1CEFA1F7003BC3F4 /* DatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerView.h; sourceTree = "<group>"; };
+		4DD7BA4C1CEFA1F7003BC3F4 /* DatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerView.m; sourceTree = "<group>"; };
+		4DD7BA4E1CEFA1F7003BC3F4 /* DistrictTextFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistrictTextFieldView.h; sourceTree = "<group>"; };
+		4DD7BA4F1CEFA1F7003BC3F4 /* DistrictTextFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistrictTextFieldView.m; sourceTree = "<group>"; };
+		4DD7BA511CEFA1F7003BC3F4 /* EmailTextFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailTextFieldView.h; sourceTree = "<group>"; };
+		4DD7BA521CEFA1F7003BC3F4 /* EmailTextFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailTextFieldView.m; sourceTree = "<group>"; };
+		4DD7BA541CEFA1F7003BC3F4 /* NameTextFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameTextFieldView.h; sourceTree = "<group>"; };
+		4DD7BA551CEFA1F7003BC3F4 /* NameTextFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameTextFieldView.m; sourceTree = "<group>"; };
+		4DD7BA571CEFA1F7003BC3F4 /* PasswordTextFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordTextFieldView.h; sourceTree = "<group>"; };
+		4DD7BA581CEFA1F7003BC3F4 /* PasswordTextFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordTextFieldView.m; sourceTree = "<group>"; };
+		4DD7BA5A1CEFA1F7003BC3F4 /* RGTextFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGTextFieldView.h; sourceTree = "<group>"; };
+		4DD7BA5B1CEFA1F7003BC3F4 /* RGTextFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGTextFieldView.m; sourceTree = "<group>"; };
+		4DD7BA5D1CEFA1F7003BC3F4 /* StreetTextFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreetTextFieldView.h; sourceTree = "<group>"; };
+		4DD7BA5E1CEFA1F7003BC3F4 /* StreetTextFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreetTextFieldView.m; sourceTree = "<group>"; };
+		4DD7BA601CEFA1F7003BC3F4 /* TelephoneTextFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TelephoneTextFieldView.h; sourceTree = "<group>"; };
+		4DD7BA611CEFA1F7003BC3F4 /* TelephoneTextFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TelephoneTextFieldView.m; sourceTree = "<group>"; };
+		4DD7BA621CEFA1F7003BC3F4 /* TQTCustomTextFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTCustomTextFieldView.h; sourceTree = "<group>"; };
+		4DD7BA631CEFA1F7003BC3F4 /* TQTCustomTextFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTCustomTextFieldView.m; sourceTree = "<group>"; };
+		4DD7BA641CEFA1F7003BC3F4 /* TQTCustomTextFieldView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TQTCustomTextFieldView.xib; sourceTree = "<group>"; };
+		4DD7BA671CEFA1F7003BC3F4 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		4DD7BA681CEFA1F7003BC3F4 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		4DD7BA691CEFA1F7003BC3F4 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		4DD7BA6D1CEFA1F7003BC3F4 /* LoadingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingImageView.h; sourceTree = "<group>"; };
+		4DD7BA6E1CEFA1F7003BC3F4 /* LoadingImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingImageView.m; sourceTree = "<group>"; };
+		4DD7BA6F1CEFA1F7003BC3F4 /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
+		4DD7BA701CEFA1F7003BC3F4 /* LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = "<group>"; };
+		4DD7BA711CEFA1F7003BC3F4 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		4DD7BA731CEFA1F7003BC3F4 /* NotificationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationView.h; sourceTree = "<group>"; };
+		4DD7BA741CEFA1F7003BC3F4 /* NotificationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationView.m; sourceTree = "<group>"; };
+		4DD7BA751CEFA1F7003BC3F4 /* NotificationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotificationView.xib; sourceTree = "<group>"; };
+		4DD7BA781CEFA1F7003BC3F4 /* PlaceholderFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceholderFactory.h; sourceTree = "<group>"; };
+		4DD7BA791CEFA1F7003BC3F4 /* PlaceholderFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceholderFactory.m; sourceTree = "<group>"; };
+		4DD7BA7A1CEFA1F7003BC3F4 /* PlaceholderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceholderView.h; sourceTree = "<group>"; };
+		4DD7BA7B1CEFA1F7003BC3F4 /* PlaceholderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceholderView.m; sourceTree = "<group>"; };
+		4DD7BA7C1CEFA1F7003BC3F4 /* PlaceholderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaceholderView.xib; sourceTree = "<group>"; };
+		4DD7BA7E1CEFA1F7003BC3F4 /* TQTBaseComponentsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTBaseComponentsView.h; sourceTree = "<group>"; };
+		4DD7BA7F1CEFA1F7003BC3F4 /* TQTBaseComponentsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTBaseComponentsView.m; sourceTree = "<group>"; };
+		4DD7BA821CEFA1F7003BC3F4 /* TQTTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTTitleView.h; sourceTree = "<group>"; };
+		4DD7BA831CEFA1F7003BC3F4 /* TQTTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTTitleView.m; sourceTree = "<group>"; };
+		4DD7BA841CEFA1F7003BC3F4 /* TQTTitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TQTTitleView.xib; sourceTree = "<group>"; };
+		4DD7BA881CEFA1F7003BC3F4 /* StateProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateProvider.h; sourceTree = "<group>"; };
+		4DD7BA891CEFA1F7003BC3F4 /* StateProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateProvider.m; sourceTree = "<group>"; };
+		4DD7BA8B1CEFA1F7003BC3F4 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		4DD7BA8E1CEFA1F7003BC3F4 /* AppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppViewController.h; sourceTree = "<group>"; };
+		4DD7BA8F1CEFA1F7003BC3F4 /* AppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppViewController.m; sourceTree = "<group>"; };
+		4DD7BA911CEFA1F7003BC3F4 /* BaseHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseHomeViewController.h; sourceTree = "<group>"; };
+		4DD7BA921CEFA1F7003BC3F4 /* BaseHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseHomeViewController.m; sourceTree = "<group>"; };
+		4DD7BA931CEFA1F7003BC3F4 /* BaseHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseHomeViewController.xib; sourceTree = "<group>"; };
+		4DD7BA951CEFA1F7003BC3F4 /* BaseLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseLoginViewController.h; sourceTree = "<group>"; };
+		4DD7BA961CEFA1F7003BC3F4 /* BaseLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseLoginViewController.m; sourceTree = "<group>"; };
+		4DD7BA971CEFA1F7003BC3F4 /* BaseLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseLoginViewController.xib; sourceTree = "<group>"; };
+		4DD7BA991CEFA1F7003BC3F4 /* BasePasswordRecoveryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePasswordRecoveryViewController.h; sourceTree = "<group>"; };
+		4DD7BA9A1CEFA1F7003BC3F4 /* BasePasswordRecoveryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasePasswordRecoveryViewController.m; sourceTree = "<group>"; };
+		4DD7BA9B1CEFA1F7003BC3F4 /* BasePasswordRecoveryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BasePasswordRecoveryViewController.xib; sourceTree = "<group>"; };
+		4DD7BA9D1CEFA1F7003BC3F4 /* BaseHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseHomeViewController.xib; sourceTree = "<group>"; };
+		4DD7BA9E1CEFA1F7003BC3F4 /* BaseSignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseSignupViewController.h; sourceTree = "<group>"; };
+		4DD7BA9F1CEFA1F7003BC3F4 /* BaseSignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseSignupViewController.m; sourceTree = "<group>"; };
+		4DD7BAA01CEFA1F7003BC3F4 /* BaseSignupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseSignupViewController.xib; sourceTree = "<group>"; };
+		4DD7BAA31CEFA1F7003BC3F4 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		4DD7BAA41CEFA1F7003BC3F4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4DD7BAA51CEFA1F7003BC3F4 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		4DD7BAA61CEFA1F7003BC3F4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4DD7BAAB1CEFA1F7003BC3F4 /* TQTButtonStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTButtonStylesheet.h; sourceTree = "<group>"; };
+		4DD7BAAC1CEFA1F7003BC3F4 /* TQTButtonStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTButtonStylesheet.m; sourceTree = "<group>"; };
+		4DD7BAAF1CEFA1F7003BC3F4 /* TQTCustomCheckboxButtonViewStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTCustomCheckboxButtonViewStylesheet.h; sourceTree = "<group>"; };
+		4DD7BAB01CEFA1F7003BC3F4 /* TQTCustomCheckboxButtonViewStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTCustomCheckboxButtonViewStylesheet.m; sourceTree = "<group>"; };
+		4DD7BAB21CEFA1F7003BC3F4 /* TQTCustomRadioButtonViewStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTCustomRadioButtonViewStylesheet.h; sourceTree = "<group>"; };
+		4DD7BAB31CEFA1F7003BC3F4 /* TQTCustomRadioButtonViewStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTCustomRadioButtonViewStylesheet.m; sourceTree = "<group>"; };
+		4DD7BAB51CEFA1F7003BC3F4 /* TQTCustomTextFieldViewStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTCustomTextFieldViewStylesheet.h; sourceTree = "<group>"; };
+		4DD7BAB61CEFA1F7003BC3F4 /* TQTCustomTextFieldViewStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTCustomTextFieldViewStylesheet.m; sourceTree = "<group>"; };
+		4DD7BAB91CEFA1F7003BC3F4 /* SampleListItemContentChildViewStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleListItemContentChildViewStylesheet.h; sourceTree = "<group>"; };
+		4DD7BABA1CEFA1F7003BC3F4 /* SampleListItemContentChildViewStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleListItemContentChildViewStylesheet.m; sourceTree = "<group>"; };
+		4DD7BABD1CEFA1F7003BC3F4 /* LoadingViewStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingViewStylesheet.h; sourceTree = "<group>"; };
+		4DD7BABE1CEFA1F7003BC3F4 /* LoadingViewStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingViewStylesheet.m; sourceTree = "<group>"; };
+		4DD7BAC01CEFA1F7003BC3F4 /* NotificationViewStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationViewStylesheet.h; sourceTree = "<group>"; };
+		4DD7BAC11CEFA1F7003BC3F4 /* NotificationViewStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationViewStylesheet.m; sourceTree = "<group>"; };
+		4DD7BAC31CEFA1F7003BC3F4 /* PlaceholderStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceholderStylesheet.h; sourceTree = "<group>"; };
+		4DD7BAC41CEFA1F7003BC3F4 /* PlaceholderStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceholderStylesheet.m; sourceTree = "<group>"; };
+		4DD7BAC61CEFA1F7003BC3F4 /* TQTViewStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTViewStylesheet.h; sourceTree = "<group>"; };
+		4DD7BAC71CEFA1F7003BC3F4 /* TQTViewStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTViewStylesheet.m; sourceTree = "<group>"; };
+		4DD7BAC91CEFA1F7003BC3F4 /* TQTBaseStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTBaseStylesheet.h; sourceTree = "<group>"; };
+		4DD7BACA1CEFA1F7003BC3F4 /* TQTBaseStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTBaseStylesheet.m; sourceTree = "<group>"; };
+		4DD7BACC1CEFA1F7003BC3F4 /* TQTTypographyStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTTypographyStylesheet.h; sourceTree = "<group>"; };
+		4DD7BACD1CEFA1F7003BC3F4 /* TQTTypographyStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTTypographyStylesheet.m; sourceTree = "<group>"; };
+		4DD7BACE1CEFA1F7003BC3F4 /* TQTStylesheetImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTStylesheetImporter.h; sourceTree = "<group>"; };
+		4DD7BACF1CEFA1F7003BC3F4 /* TQTStylesheetImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTStylesheetImporter.m; sourceTree = "<group>"; };
+		4DD7BAD01CEFA1F7003BC3F4 /* TQTStylesheetImports.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTStylesheetImports.h; sourceTree = "<group>"; };
+		4DD7BAD11CEFA1F7003BC3F4 /* TQTStylesheetImports.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTStylesheetImports.m; sourceTree = "<group>"; };
+		4DD7BAD41CEFA1F7003BC3F4 /* Colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colors.h; sourceTree = "<group>"; };
+		4DD7BAD51CEFA1F7003BC3F4 /* Components.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Components.h; sourceTree = "<group>"; };
+		4DD7BAD61CEFA1F7003BC3F4 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		4DD7BAD71CEFA1F7003BC3F4 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		4DD7BAD81CEFA1F7003BC3F4 /* Fonts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fonts.h; sourceTree = "<group>"; };
+		4DD7BAD91CEFA1F7003BC3F4 /* PKConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKConstants.h; sourceTree = "<group>"; };
+		4DD7BADA1CEFA1F7003BC3F4 /* UserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaults.h; sourceTree = "<group>"; };
+		4DD7BADB1CEFA1F7003BC3F4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DD7BADC1CEFA1F7003BC3F4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4DD7BBEF1CEFA21A003BC3F4 /* MainGuide.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainGuide.storyboard; sourceTree = "<group>"; };
+		4DD7BBF31CEFA21A003BC3F4 /* TQTColorSwatchesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTColorSwatchesViewController.h; sourceTree = "<group>"; };
+		4DD7BBF41CEFA21A003BC3F4 /* TQTColorSwatchesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTColorSwatchesViewController.m; sourceTree = "<group>"; };
+		4DD7BBF51CEFA21A003BC3F4 /* TQTComponentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTComponentsViewController.h; sourceTree = "<group>"; };
+		4DD7BBF61CEFA21A003BC3F4 /* TQTComponentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTComponentsViewController.m; sourceTree = "<group>"; };
+		4DD7BBF71CEFA21A003BC3F4 /* TQTComponentsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TQTComponentsViewController.xib; sourceTree = "<group>"; };
+		4DD7BBF91CEFA21A003BC3F4 /* TQTControlsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTControlsViewController.h; sourceTree = "<group>"; };
+		4DD7BBFA1CEFA21A003BC3F4 /* TQTControlsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTControlsViewController.m; sourceTree = "<group>"; };
+		4DD7BBFD1CEFA21A003BC3F4 /* GuideHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideHomeViewController.h; sourceTree = "<group>"; };
+		4DD7BBFE1CEFA21A003BC3F4 /* GuideHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideHomeViewController.m; sourceTree = "<group>"; };
+		4DD7BC001CEFA21A003BC3F4 /* GuideLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideLoginViewController.h; sourceTree = "<group>"; };
+		4DD7BC011CEFA21A003BC3F4 /* GuideLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideLoginViewController.m; sourceTree = "<group>"; };
+		4DD7BC031CEFA21A003BC3F4 /* GuidePasswordRecoveryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuidePasswordRecoveryViewController.h; sourceTree = "<group>"; };
+		4DD7BC041CEFA21A003BC3F4 /* GuidePasswordRecoveryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuidePasswordRecoveryViewController.m; sourceTree = "<group>"; };
+		4DD7BC061CEFA21A003BC3F4 /* GuideSignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideSignupViewController.h; sourceTree = "<group>"; };
+		4DD7BC071CEFA21A003BC3F4 /* GuideSignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideSignupViewController.m; sourceTree = "<group>"; };
+		4DD7BC081CEFA21A003BC3F4 /* TQTDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTDemoViewController.h; sourceTree = "<group>"; };
+		4DD7BC091CEFA21A003BC3F4 /* TQTDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTDemoViewController.m; sourceTree = "<group>"; };
+		4DD7BC0C1CEFA21A003BC3F4 /* TQTCustomTextfieldsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTCustomTextfieldsViewController.h; sourceTree = "<group>"; };
+		4DD7BC0D1CEFA21A003BC3F4 /* TQTCustomTextfieldsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTCustomTextfieldsViewController.m; sourceTree = "<group>"; };
+		4DD7BC0E1CEFA21A003BC3F4 /* TQTFormsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTFormsViewController.h; sourceTree = "<group>"; };
+		4DD7BC0F1CEFA21A003BC3F4 /* TQTFormsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTFormsViewController.m; sourceTree = "<group>"; };
+		4DD7BC111CEFA21A003BC3F4 /* TQTListsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTListsViewController.h; sourceTree = "<group>"; };
+		4DD7BC121CEFA21A003BC3F4 /* TQTListsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTListsViewController.m; sourceTree = "<group>"; };
+		4DD7BC141CEFA21A003BC3F4 /* TQTTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTTableViewController.h; sourceTree = "<group>"; };
+		4DD7BC151CEFA21A003BC3F4 /* TQTTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTTableViewController.m; sourceTree = "<group>"; };
+		4DD7BC171CEFA21A003BC3F4 /* TQTOtherComponentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTOtherComponentsViewController.h; sourceTree = "<group>"; };
+		4DD7BC181CEFA21A003BC3F4 /* TQTOtherComponentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTOtherComponentsViewController.m; sourceTree = "<group>"; };
+		4DD7BC1A1CEFA21A003BC3F4 /* TQTProvidersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTProvidersViewController.h; sourceTree = "<group>"; };
+		4DD7BC1B1CEFA21A003BC3F4 /* TQTProvidersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTProvidersViewController.m; sourceTree = "<group>"; };
+		4DD7BC1D1CEFA21A003BC3F4 /* TQTTypographyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTTypographyViewController.h; sourceTree = "<group>"; };
+		4DD7BC1E1CEFA21A003BC3F4 /* TQTTypographyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTTypographyViewController.m; sourceTree = "<group>"; };
+		4DD7BC201CEFA21A003BC3F4 /* TQTViewControllersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTViewControllersViewController.h; sourceTree = "<group>"; };
+		4DD7BC211CEFA21A003BC3F4 /* TQTViewControllersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTViewControllersViewController.m; sourceTree = "<group>"; };
+		4DD7BC221CEFA21A003BC3F4 /* TQTGuideTableViewDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTGuideTableViewDataModel.h; sourceTree = "<group>"; };
+		4DD7BC231CEFA21A003BC3F4 /* TQTGuideTableViewDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTGuideTableViewDataModel.m; sourceTree = "<group>"; };
+		4DD7BC261CEFA21A003BC3F4 /* TQTGuideSubtitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTGuideSubtitleView.h; sourceTree = "<group>"; };
+		4DD7BC271CEFA21A003BC3F4 /* TQTGuideSubtitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTGuideSubtitleView.m; sourceTree = "<group>"; };
+		4DD7BC281CEFA21A003BC3F4 /* TQTGuideSubtitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TQTGuideSubtitleView.xib; sourceTree = "<group>"; };
+		4DD7BC2A1CEFA21A003BC3F4 /* TQTGuideTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTGuideTitleView.h; sourceTree = "<group>"; };
+		4DD7BC2B1CEFA21A003BC3F4 /* TQTGuideTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTGuideTitleView.m; sourceTree = "<group>"; };
+		4DD7BC2C1CEFA21A003BC3F4 /* TQTGuideTitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TQTGuideTitleView.xib; sourceTree = "<group>"; };
+		4DD7BC2D1CEFA21A003BC3F4 /* TQTGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTGuideViewController.h; sourceTree = "<group>"; };
+		4DD7BC2E1CEFA21A003BC3F4 /* TQTGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTGuideViewController.m; sourceTree = "<group>"; };
+		4DD7BC2F1CEFA21A003BC3F4 /* TQTGuideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TQTGuideViewController.xib; sourceTree = "<group>"; };
+		4DD7BC7B1CEFA7C5003BC3F4 /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HeaderView.h; path = HeaderView/HeaderView.h; sourceTree = "<group>"; };
+		4DD7BC7C1CEFA7C5003BC3F4 /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HeaderView.m; path = HeaderView/HeaderView.m; sourceTree = "<group>"; };
+		4DD7BC811CEFA88E003BC3F4 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HeaderView.xib; path = HeaderView/HeaderView.xib; sourceTree = "<group>"; };
+		5BAC04961A695923004805CC /* D-onboardFE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "D-onboardFE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88F4BE94E7912FB436962544 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		96727D8030AF30D21A795138 /* Pods.release-staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods.release-staging.xcconfig"; path = "Pods/Target Support Files/Pods/Pods.release-staging.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D541B961B62E52500985143 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDFA9BA0C465C4262FEF7E42 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D87A7F51C2B281300DB3C10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41753349CAF2F84604FA3048 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BAC04931A695923004805CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A7D5756ACE6407A23C5A0D1 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E6D5D2F3C5E1DAE360C2523 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DE25AD8C178923F58BFB8FC /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4DD7B9D31CEFA1F7003BC3F4 /* onboardFE */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7B9D41CEFA1F7003BC3F4 /* App */,
+				4DD7B9DA1CEFA1F7003BC3F4 /* Categories */,
+				4DD7BA181CEFA1F7003BC3F4 /* Components */,
+				4DD7BA851CEFA1F7003BC3F4 /* Models */,
+				4DD7BA8A1CEFA1F7003BC3F4 /* Modules */,
+				4DD7BA8C1CEFA1F7003BC3F4 /* ModulesBase */,
+				4DD7BAA11CEFA1F7003BC3F4 /* Resources */,
+				4DD7BAA71CEFA1F7003BC3F4 /* Stylesheets */,
+				4DD7BAD21CEFA1F7003BC3F4 /* Supporting Files */,
+			);
+			path = onboardFE;
+			sourceTree = "<group>";
+		};
+		4DD7B9D41CEFA1F7003BC3F4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7B9D51CEFA1F7003BC3F4 /* AppDelegate.h */,
+				4DD7B9D61CEFA1F7003BC3F4 /* AppDelegate.m */,
+				4DD7B9D71CEFA1F7003BC3F4 /* Exceptions */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4DD7B9D71CEFA1F7003BC3F4 /* Exceptions */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7B9D81CEFA1F7003BC3F4 /* TQTMissingMethodImplementationException.h */,
+				4DD7B9D91CEFA1F7003BC3F4 /* TQTMissingMethodImplementationException.m */,
+			);
+			path = Exceptions;
+			sourceTree = "<group>";
+		};
+		4DD7B9DA1CEFA1F7003BC3F4 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7B9DB1CEFA1F7003BC3F4 /* NSDate */,
+				4DD7B9DF1CEFA1F7003BC3F4 /* NSNumber */,
+				4DD7B9E31CEFA1F7003BC3F4 /* NSString */,
+				4DD7B9ED1CEFA1F7003BC3F4 /* UIButton */,
+				4DD7B9F11CEFA1F7003BC3F4 /* UIImage */,
+				4DD7B9F81CEFA1F7003BC3F4 /* UIImageView */,
+				4DD7B9FC1CEFA1F7003BC3F4 /* UILabel */,
+				4DD7BA031CEFA1F7003BC3F4 /* UINavigationItem */,
+				4DD7BA071CEFA1F7003BC3F4 /* UIView */,
+				4DD7BA111CEFA1F7003BC3F4 /* UIViewController */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		4DD7B9DB1CEFA1F7003BC3F4 /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7B9DC1CEFA1F7003BC3F4 /* FormattedDate */,
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
+		4DD7B9DC1CEFA1F7003BC3F4 /* FormattedDate */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7B9DD1CEFA1F7003BC3F4 /* NSDate+FormattedDate.h */,
+				4DD7B9DE1CEFA1F7003BC3F4 /* NSDate+FormattedDate.m */,
+			);
+			path = FormattedDate;
+			sourceTree = "<group>";
+		};
+		4DD7B9DF1CEFA1F7003BC3F4 /* NSNumber */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7B9E01CEFA1F7003BC3F4 /* BrazilFormat */,
+			);
+			path = NSNumber;
+			sourceTree = "<group>";
+		};
+		4DD7B9E01CEFA1F7003BC3F4 /* BrazilFormat */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7B9E11CEFA1F7003BC3F4 /* NSNumber+BrazilFormat.h */,
+				4DD7B9E21CEFA1F7003BC3F4 /* NSNumber+BrazilFormat.m */,
+			);
+			path = BrazilFormat;
+			sourceTree = "<group>";
+		};
+		4DD7B9E31CEFA1F7003BC3F4 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7B9E41CEFA1F7003BC3F4 /* Clean */,
+				4DD7B9E71CEFA1F7003BC3F4 /* DynamicSize */,
+				4DD7B9EA1CEFA1F7003BC3F4 /* Validations */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		4DD7B9E41CEFA1F7003BC3F4 /* Clean */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7B9E51CEFA1F7003BC3F4 /* NSString+Clean.h */,
+				4DD7B9E61CEFA1F7003BC3F4 /* NSString+Clean.m */,
+			);
+			path = Clean;
+			sourceTree = "<group>";
+		};
+		4DD7B9E71CEFA1F7003BC3F4 /* DynamicSize */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7B9E81CEFA1F7003BC3F4 /* NSString+DynamicSize.h */,
+				4DD7B9E91CEFA1F7003BC3F4 /* NSString+DynamicSize.m */,
+			);
+			path = DynamicSize;
+			sourceTree = "<group>";
+		};
+		4DD7B9EA1CEFA1F7003BC3F4 /* Validations */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7B9EB1CEFA1F7003BC3F4 /* NSString+Validations.h */,
+				4DD7B9EC1CEFA1F7003BC3F4 /* NSString+Validations.m */,
+			);
+			path = Validations;
+			sourceTree = "<group>";
+		};
+		4DD7B9ED1CEFA1F7003BC3F4 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7B9EE1CEFA1F7003BC3F4 /* Message */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		4DD7B9EE1CEFA1F7003BC3F4 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7B9EF1CEFA1F7003BC3F4 /* UIButton+Message.h */,
+				4DD7B9F01CEFA1F7003BC3F4 /* UIButton+Message.m */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		4DD7B9F11CEFA1F7003BC3F4 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7B9F21CEFA1F7003BC3F4 /* ImageWithAlpha */,
+				4DD7B9F51CEFA1F7003BC3F4 /* ImageWithColor */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		4DD7B9F21CEFA1F7003BC3F4 /* ImageWithAlpha */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7B9F31CEFA1F7003BC3F4 /* UIImage+ImageWithAlpha.h */,
+				4DD7B9F41CEFA1F7003BC3F4 /* UIImage+ImageWithAlpha.m */,
+			);
+			path = ImageWithAlpha;
+			sourceTree = "<group>";
+		};
+		4DD7B9F51CEFA1F7003BC3F4 /* ImageWithColor */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7B9F61CEFA1F7003BC3F4 /* UIImage+ImageWithColor.h */,
+				4DD7B9F71CEFA1F7003BC3F4 /* UIImage+ImageWithColor.m */,
+			);
+			path = ImageWithColor;
+			sourceTree = "<group>";
+		};
+		4DD7B9F81CEFA1F7003BC3F4 /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7B9F91CEFA1F7003BC3F4 /* ImageFromUrl */,
+			);
+			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		4DD7B9F91CEFA1F7003BC3F4 /* ImageFromUrl */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7B9FA1CEFA1F7003BC3F4 /* UIImageView+ImageFromUrl.h */,
+				4DD7B9FB1CEFA1F7003BC3F4 /* UIImageView+ImageFromUrl.m */,
+			);
+			path = ImageFromUrl;
+			sourceTree = "<group>";
+		};
+		4DD7B9FC1CEFA1F7003BC3F4 /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7B9FD1CEFA1F7003BC3F4 /* AttributedText */,
+				4DD7BA001CEFA1F7003BC3F4 /* Message */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
+		4DD7B9FD1CEFA1F7003BC3F4 /* AttributedText */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7B9FE1CEFA1F7003BC3F4 /* UILabel+AttributedText.h */,
+				4DD7B9FF1CEFA1F7003BC3F4 /* UILabel+AttributedText.m */,
+			);
+			path = AttributedText;
+			sourceTree = "<group>";
+		};
+		4DD7BA001CEFA1F7003BC3F4 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA011CEFA1F7003BC3F4 /* UILabel+Message.h */,
+				4DD7BA021CEFA1F7003BC3F4 /* UILabel+Message.m */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		4DD7BA031CEFA1F7003BC3F4 /* UINavigationItem */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA041CEFA1F7003BC3F4 /* Title */,
+			);
+			path = UINavigationItem;
+			sourceTree = "<group>";
+		};
+		4DD7BA041CEFA1F7003BC3F4 /* Title */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA051CEFA1F7003BC3F4 /* UINavigationItem+Title.h */,
+				4DD7BA061CEFA1F7003BC3F4 /* UINavigationItem+Title.m */,
+			);
+			path = Title;
+			sourceTree = "<group>";
+		};
+		4DD7BA071CEFA1F7003BC3F4 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA081CEFA1F7003BC3F4 /* CenterInParent */,
+				4DD7BA0B1CEFA1F7003BC3F4 /* Constraints */,
+				4DD7BA0E1CEFA1F7003BC3F4 /* TQTAttachToSuperview */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		4DD7BA081CEFA1F7003BC3F4 /* CenterInParent */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA091CEFA1F7003BC3F4 /* UIView+CenterInParent.h */,
+				4DD7BA0A1CEFA1F7003BC3F4 /* UIView+CenterInParent.m */,
+			);
+			path = CenterInParent;
+			sourceTree = "<group>";
+		};
+		4DD7BA0B1CEFA1F7003BC3F4 /* Constraints */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA0C1CEFA1F7003BC3F4 /* UIView+Constraints.h */,
+				4DD7BA0D1CEFA1F7003BC3F4 /* UIView+Constraints.m */,
+			);
+			path = Constraints;
+			sourceTree = "<group>";
+		};
+		4DD7BA0E1CEFA1F7003BC3F4 /* TQTAttachToSuperview */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA0F1CEFA1F7003BC3F4 /* UIView+TQTAttachToSuperview.h */,
+				4DD7BA101CEFA1F7003BC3F4 /* UIView+TQTAttachToSuperview.m */,
+			);
+			path = TQTAttachToSuperview;
+			sourceTree = "<group>";
+		};
+		4DD7BA111CEFA1F7003BC3F4 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA121CEFA1F7003BC3F4 /* IsModal */,
+				4DD7BA151CEFA1F7003BC3F4 /* SetupNavbarButtonWithTitle */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		4DD7BA121CEFA1F7003BC3F4 /* IsModal */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA131CEFA1F7003BC3F4 /* UIViewController+IsModal.h */,
+				4DD7BA141CEFA1F7003BC3F4 /* UIViewController+IsModal.m */,
+			);
+			path = IsModal;
+			sourceTree = "<group>";
+		};
+		4DD7BA151CEFA1F7003BC3F4 /* SetupNavbarButtonWithTitle */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA161CEFA1F7003BC3F4 /* UIViewController+SetupNavbarButtonWithTitle.h */,
+				4DD7BA171CEFA1F7003BC3F4 /* UIViewController+SetupNavbarButtonWithTitle.m */,
+			);
+			path = SetupNavbarButtonWithTitle;
+			sourceTree = "<group>";
+		};
+		4DD7BA181CEFA1F7003BC3F4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA191CEFA1F7003BC3F4 /* BasePickerViewManager */,
+				4DD7BA1C1CEFA1F7003BC3F4 /* BaseTableViewManager */,
+				4DD7BA211CEFA1F7003BC3F4 /* Message */,
+				4DD7BA251CEFA1F7003BC3F4 /* ViewComponents */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4DD7BA191CEFA1F7003BC3F4 /* BasePickerViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA1A1CEFA1F7003BC3F4 /* BasePickerViewManager.h */,
+				4DD7BA1B1CEFA1F7003BC3F4 /* BasePickerViewManager.m */,
+			);
+			path = BasePickerViewManager;
+			sourceTree = "<group>";
+		};
+		4DD7BA1C1CEFA1F7003BC3F4 /* BaseTableViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA1D1CEFA1F7003BC3F4 /* BaseTableViewManager.h */,
+				4DD7BA1E1CEFA1F7003BC3F4 /* BaseTableViewManager.m */,
+				4DD7BA1F1CEFA1F7003BC3F4 /* subclasses */,
+			);
+			path = BaseTableViewManager;
+			sourceTree = "<group>";
+		};
+		4DD7BA1F1CEFA1F7003BC3F4 /* subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA201CEFA1F7003BC3F4 /* .gitkeep */,
+			);
+			path = subclasses;
+			sourceTree = "<group>";
+		};
+		4DD7BA211CEFA1F7003BC3F4 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA221CEFA1F7003BC3F4 /* Message.h */,
+				4DD7BA231CEFA1F7003BC3F4 /* Message.m */,
+				4DD7BA241CEFA1F7003BC3F4 /* Messages.strings */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		4DD7BA251CEFA1F7003BC3F4 /* ViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA261CEFA1F7003BC3F4 /* Forms */,
+				4DD7BA651CEFA1F7003BC3F4 /* Lists */,
+				4DD7BA6A1CEFA1F7003BC3F4 /* OtherComponents */,
+				4DD7BA7D1CEFA1F7003BC3F4 /* TQTBaseComponentsView */,
+				4DD7BA801CEFA1F7003BC3F4 /* Typography */,
+			);
+			path = ViewComponents;
+			sourceTree = "<group>";
+		};
+		4DD7BA261CEFA1F7003BC3F4 /* Forms */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA271CEFA1F7003BC3F4 /* TQTCustomCheckboxButtonView */,
+				4DD7BA2B1CEFA1F7003BC3F4 /* TQTCustomPickerView */,
+				4DD7BA321CEFA1F7003BC3F4 /* TQTCustomRadioButtonView */,
+				4DD7BA361CEFA1F7003BC3F4 /* TQTCustomTextFieldView */,
+			);
+			path = Forms;
+			sourceTree = "<group>";
+		};
+		4DD7BA271CEFA1F7003BC3F4 /* TQTCustomCheckboxButtonView */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA281CEFA1F7003BC3F4 /* TQTCustomCheckboxButtonView.h */,
+				4DD7BA291CEFA1F7003BC3F4 /* TQTCustomCheckboxButtonView.m */,
+				4DD7BA2A1CEFA1F7003BC3F4 /* TQTCustomCheckboxButtonView.xib */,
+			);
+			path = TQTCustomCheckboxButtonView;
+			sourceTree = "<group>";
+		};
+		4DD7BA2B1CEFA1F7003BC3F4 /* TQTCustomPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA2C1CEFA1F7003BC3F4 /* Subclasses */,
+				4DD7BA301CEFA1F7003BC3F4 /* TQTCustomPickerView.h */,
+				4DD7BA311CEFA1F7003BC3F4 /* TQTCustomPickerView.m */,
+			);
+			path = TQTCustomPickerView;
+			sourceTree = "<group>";
+		};
+		4DD7BA2C1CEFA1F7003BC3F4 /* Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA2D1CEFA1F7003BC3F4 /* StatePickerView */,
+			);
+			path = Subclasses;
+			sourceTree = "<group>";
+		};
+		4DD7BA2D1CEFA1F7003BC3F4 /* StatePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA2E1CEFA1F7003BC3F4 /* StatePickerView.h */,
+				4DD7BA2F1CEFA1F7003BC3F4 /* StatePickerView.m */,
+			);
+			path = StatePickerView;
+			sourceTree = "<group>";
+		};
+		4DD7BA321CEFA1F7003BC3F4 /* TQTCustomRadioButtonView */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA331CEFA1F7003BC3F4 /* TQTCustomRadioButtonView.h */,
+				4DD7BA341CEFA1F7003BC3F4 /* TQTCustomRadioButtonView.m */,
+				4DD7BA351CEFA1F7003BC3F4 /* TQTCustomRadioButtonView.xib */,
+			);
+			path = TQTCustomRadioButtonView;
+			sourceTree = "<group>";
+		};
+		4DD7BA361CEFA1F7003BC3F4 /* TQTCustomTextFieldView */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA371CEFA1F7003BC3F4 /* Subclasses */,
+				4DD7BA621CEFA1F7003BC3F4 /* TQTCustomTextFieldView.h */,
+				4DD7BA631CEFA1F7003BC3F4 /* TQTCustomTextFieldView.m */,
+				4DD7BA641CEFA1F7003BC3F4 /* TQTCustomTextFieldView.xib */,
+			);
+			path = TQTCustomTextFieldView;
+			sourceTree = "<group>";
+		};
+		4DD7BA371CEFA1F7003BC3F4 /* Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA381CEFA1F7003BC3F4 /* AddressNumberTextFieldView */,
+				4DD7BA3B1CEFA1F7003BC3F4 /* CepTextFieldView */,
+				4DD7BA3E1CEFA1F7003BC3F4 /* CityTextFieldView */,
+				4DD7BA411CEFA1F7003BC3F4 /* ComplementTextFieldView */,
+				4DD7BA441CEFA1F7003BC3F4 /* ConfirmPasswordTextFieldView */,
+				4DD7BA471CEFA1F7003BC3F4 /* CPFTextFieldView */,
+				4DD7BA4A1CEFA1F7003BC3F4 /* DatePickerView */,
+				4DD7BA4D1CEFA1F7003BC3F4 /* DistrictTextFieldView */,
+				4DD7BA501CEFA1F7003BC3F4 /* EmailTextFieldView */,
+				4DD7BA531CEFA1F7003BC3F4 /* NameTextFieldView */,
+				4DD7BA561CEFA1F7003BC3F4 /* PasswordTextFieldView */,
+				4DD7BA591CEFA1F7003BC3F4 /* RGTextFieldView */,
+				4DD7BA5C1CEFA1F7003BC3F4 /* StreetTextFieldView */,
+				4DD7BA5F1CEFA1F7003BC3F4 /* TelephoneTextFieldView */,
+			);
+			path = Subclasses;
+			sourceTree = "<group>";
+		};
+		4DD7BA381CEFA1F7003BC3F4 /* AddressNumberTextFieldView */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA391CEFA1F7003BC3F4 /* AddressNumberTextFieldView.h */,
+				4DD7BA3A1CEFA1F7003BC3F4 /* AddressNumberTextFieldView.m */,
+			);
+			path = AddressNumberTextFieldView;
+			sourceTree = "<group>";
+		};
+		4DD7BA3B1CEFA1F7003BC3F4 /* CepTextFieldView */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA3C1CEFA1F7003BC3F4 /* CepTextFieldView.h */,
+				4DD7BA3D1CEFA1F7003BC3F4 /* CepTextFieldView.m */,
+			);
+			path = CepTextFieldView;
+			sourceTree = "<group>";
+		};
+		4DD7BA3E1CEFA1F7003BC3F4 /* CityTextFieldView */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA3F1CEFA1F7003BC3F4 /* CityTextFieldView.h */,
+				4DD7BA401CEFA1F7003BC3F4 /* CityTextFieldView.m */,
+			);
+			path = CityTextFieldView;
+			sourceTree = "<group>";
+		};
+		4DD7BA411CEFA1F7003BC3F4 /* ComplementTextFieldView */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA421CEFA1F7003BC3F4 /* ComplementTextFieldView.h */,
+				4DD7BA431CEFA1F7003BC3F4 /* ComplementTextFieldView.m */,
+			);
+			path = ComplementTextFieldView;
+			sourceTree = "<group>";
+		};
+		4DD7BA441CEFA1F7003BC3F4 /* ConfirmPasswordTextFieldView */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA451CEFA1F7003BC3F4 /* ConfirmPasswordTextFieldView.h */,
+				4DD7BA461CEFA1F7003BC3F4 /* ConfirmPasswordTextFieldView.m */,
+			);
+			path = ConfirmPasswordTextFieldView;
+			sourceTree = "<group>";
+		};
+		4DD7BA471CEFA1F7003BC3F4 /* CPFTextFieldView */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA481CEFA1F7003BC3F4 /* CPFTextFieldView.h */,
+				4DD7BA491CEFA1F7003BC3F4 /* CPFTextFieldView.m */,
+			);
+			path = CPFTextFieldView;
+			sourceTree = "<group>";
+		};
+		4DD7BA4A1CEFA1F7003BC3F4 /* DatePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA4B1CEFA1F7003BC3F4 /* DatePickerView.h */,
+				4DD7BA4C1CEFA1F7003BC3F4 /* DatePickerView.m */,
+			);
+			path = DatePickerView;
+			sourceTree = "<group>";
+		};
+		4DD7BA4D1CEFA1F7003BC3F4 /* DistrictTextFieldView */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA4E1CEFA1F7003BC3F4 /* DistrictTextFieldView.h */,
+				4DD7BA4F1CEFA1F7003BC3F4 /* DistrictTextFieldView.m */,
+			);
+			path = DistrictTextFieldView;
+			sourceTree = "<group>";
+		};
+		4DD7BA501CEFA1F7003BC3F4 /* EmailTextFieldView */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA511CEFA1F7003BC3F4 /* EmailTextFieldView.h */,
+				4DD7BA521CEFA1F7003BC3F4 /* EmailTextFieldView.m */,
+			);
+			path = EmailTextFieldView;
+			sourceTree = "<group>";
+		};
+		4DD7BA531CEFA1F7003BC3F4 /* NameTextFieldView */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA541CEFA1F7003BC3F4 /* NameTextFieldView.h */,
+				4DD7BA551CEFA1F7003BC3F4 /* NameTextFieldView.m */,
+			);
+			path = NameTextFieldView;
+			sourceTree = "<group>";
+		};
+		4DD7BA561CEFA1F7003BC3F4 /* PasswordTextFieldView */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA571CEFA1F7003BC3F4 /* PasswordTextFieldView.h */,
+				4DD7BA581CEFA1F7003BC3F4 /* PasswordTextFieldView.m */,
+			);
+			path = PasswordTextFieldView;
+			sourceTree = "<group>";
+		};
+		4DD7BA591CEFA1F7003BC3F4 /* RGTextFieldView */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA5A1CEFA1F7003BC3F4 /* RGTextFieldView.h */,
+				4DD7BA5B1CEFA1F7003BC3F4 /* RGTextFieldView.m */,
+			);
+			path = RGTextFieldView;
+			sourceTree = "<group>";
+		};
+		4DD7BA5C1CEFA1F7003BC3F4 /* StreetTextFieldView */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA5D1CEFA1F7003BC3F4 /* StreetTextFieldView.h */,
+				4DD7BA5E1CEFA1F7003BC3F4 /* StreetTextFieldView.m */,
+			);
+			path = StreetTextFieldView;
+			sourceTree = "<group>";
+		};
+		4DD7BA5F1CEFA1F7003BC3F4 /* TelephoneTextFieldView */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA601CEFA1F7003BC3F4 /* TelephoneTextFieldView.h */,
+				4DD7BA611CEFA1F7003BC3F4 /* TelephoneTextFieldView.m */,
+			);
+			path = TelephoneTextFieldView;
+			sourceTree = "<group>";
+		};
+		4DD7BA651CEFA1F7003BC3F4 /* Lists */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA661CEFA1F7003BC3F4 /* CustomTableViewCell */,
+			);
+			path = Lists;
+			sourceTree = "<group>";
+		};
+		4DD7BA661CEFA1F7003BC3F4 /* CustomTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA671CEFA1F7003BC3F4 /* CustomTableViewCell.h */,
+				4DD7BA681CEFA1F7003BC3F4 /* CustomTableViewCell.m */,
+				4DD7BA691CEFA1F7003BC3F4 /* CustomTableViewCell.xib */,
+			);
+			path = CustomTableViewCell;
+			sourceTree = "<group>";
+		};
+		4DD7BA6A1CEFA1F7003BC3F4 /* OtherComponents */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA6B1CEFA1F7003BC3F4 /* LoadingView */,
+				4DD7BA721CEFA1F7003BC3F4 /* NotificationView */,
+				4DD7BA761CEFA1F7003BC3F4 /* PlaceholderView */,
+				4DD7BC801CEFA7CA003BC3F4 /* HeaderView */,
+			);
+			path = OtherComponents;
+			sourceTree = "<group>";
+		};
+		4DD7BA6B1CEFA1F7003BC3F4 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA6C1CEFA1F7003BC3F4 /* LoadingImageView */,
+				4DD7BA6F1CEFA1F7003BC3F4 /* LoadingView.h */,
+				4DD7BA701CEFA1F7003BC3F4 /* LoadingView.m */,
+				4DD7BA711CEFA1F7003BC3F4 /* LoadingView.xib */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		4DD7BA6C1CEFA1F7003BC3F4 /* LoadingImageView */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA6D1CEFA1F7003BC3F4 /* LoadingImageView.h */,
+				4DD7BA6E1CEFA1F7003BC3F4 /* LoadingImageView.m */,
+			);
+			path = LoadingImageView;
+			sourceTree = "<group>";
+		};
+		4DD7BA721CEFA1F7003BC3F4 /* NotificationView */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA731CEFA1F7003BC3F4 /* NotificationView.h */,
+				4DD7BA741CEFA1F7003BC3F4 /* NotificationView.m */,
+				4DD7BA751CEFA1F7003BC3F4 /* NotificationView.xib */,
+			);
+			path = NotificationView;
+			sourceTree = "<group>";
+		};
+		4DD7BA761CEFA1F7003BC3F4 /* PlaceholderView */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA771CEFA1F7003BC3F4 /* PlaceholderFactory */,
+				4DD7BA7A1CEFA1F7003BC3F4 /* PlaceholderView.h */,
+				4DD7BA7B1CEFA1F7003BC3F4 /* PlaceholderView.m */,
+				4DD7BA7C1CEFA1F7003BC3F4 /* PlaceholderView.xib */,
+			);
+			path = PlaceholderView;
+			sourceTree = "<group>";
+		};
+		4DD7BA771CEFA1F7003BC3F4 /* PlaceholderFactory */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA781CEFA1F7003BC3F4 /* PlaceholderFactory.h */,
+				4DD7BA791CEFA1F7003BC3F4 /* PlaceholderFactory.m */,
+			);
+			path = PlaceholderFactory;
+			sourceTree = "<group>";
+		};
+		4DD7BA7D1CEFA1F7003BC3F4 /* TQTBaseComponentsView */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA7E1CEFA1F7003BC3F4 /* TQTBaseComponentsView.h */,
+				4DD7BA7F1CEFA1F7003BC3F4 /* TQTBaseComponentsView.m */,
+			);
+			path = TQTBaseComponentsView;
+			sourceTree = "<group>";
+		};
+		4DD7BA801CEFA1F7003BC3F4 /* Typography */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA811CEFA1F7003BC3F4 /* TQTTitleView */,
+			);
+			path = Typography;
+			sourceTree = "<group>";
+		};
+		4DD7BA811CEFA1F7003BC3F4 /* TQTTitleView */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA821CEFA1F7003BC3F4 /* TQTTitleView.h */,
+				4DD7BA831CEFA1F7003BC3F4 /* TQTTitleView.m */,
+				4DD7BA841CEFA1F7003BC3F4 /* TQTTitleView.xib */,
+			);
+			path = TQTTitleView;
+			sourceTree = "<group>";
+		};
+		4DD7BA851CEFA1F7003BC3F4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA861CEFA1F7003BC3F4 /* Providers */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4DD7BA861CEFA1F7003BC3F4 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA871CEFA1F7003BC3F4 /* State */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		4DD7BA871CEFA1F7003BC3F4 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA881CEFA1F7003BC3F4 /* StateProvider.h */,
+				4DD7BA891CEFA1F7003BC3F4 /* StateProvider.m */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		4DD7BA8A1CEFA1F7003BC3F4 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA8B1CEFA1F7003BC3F4 /* .gitkeep */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		4DD7BA8C1CEFA1F7003BC3F4 /* ModulesBase */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA8D1CEFA1F7003BC3F4 /* AppViewController */,
+				4DD7BA901CEFA1F7003BC3F4 /* Home */,
+			);
+			path = ModulesBase;
+			sourceTree = "<group>";
+		};
+		4DD7BA8D1CEFA1F7003BC3F4 /* AppViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA8E1CEFA1F7003BC3F4 /* AppViewController.h */,
+				4DD7BA8F1CEFA1F7003BC3F4 /* AppViewController.m */,
+			);
+			path = AppViewController;
+			sourceTree = "<group>";
+		};
+		4DD7BA901CEFA1F7003BC3F4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA911CEFA1F7003BC3F4 /* BaseHomeViewController.h */,
+				4DD7BA921CEFA1F7003BC3F4 /* BaseHomeViewController.m */,
+				4DD7BA931CEFA1F7003BC3F4 /* BaseHomeViewController.xib */,
+				4DD7BA941CEFA1F7003BC3F4 /* Login */,
+				4DD7BA981CEFA1F7003BC3F4 /* PasswordRecovery */,
+				4DD7BA9C1CEFA1F7003BC3F4 /* Signup */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4DD7BA941CEFA1F7003BC3F4 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA951CEFA1F7003BC3F4 /* BaseLoginViewController.h */,
+				4DD7BA961CEFA1F7003BC3F4 /* BaseLoginViewController.m */,
+				4DD7BA971CEFA1F7003BC3F4 /* BaseLoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		4DD7BA981CEFA1F7003BC3F4 /* PasswordRecovery */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA991CEFA1F7003BC3F4 /* BasePasswordRecoveryViewController.h */,
+				4DD7BA9A1CEFA1F7003BC3F4 /* BasePasswordRecoveryViewController.m */,
+				4DD7BA9B1CEFA1F7003BC3F4 /* BasePasswordRecoveryViewController.xib */,
+			);
+			path = PasswordRecovery;
+			sourceTree = "<group>";
+		};
+		4DD7BA9C1CEFA1F7003BC3F4 /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BA9D1CEFA1F7003BC3F4 /* BaseHomeViewController.xib */,
+				4DD7BA9E1CEFA1F7003BC3F4 /* BaseSignupViewController.h */,
+				4DD7BA9F1CEFA1F7003BC3F4 /* BaseSignupViewController.m */,
+				4DD7BAA01CEFA1F7003BC3F4 /* BaseSignupViewController.xib */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
+		4DD7BAA11CEFA1F7003BC3F4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BAA21CEFA1F7003BC3F4 /* Fonts */,
+				4DD7BAA41CEFA1F7003BC3F4 /* Images.xcassets */,
+				4DD7BAA51CEFA1F7003BC3F4 /* LaunchScreen.xib */,
+				4DD7BAA61CEFA1F7003BC3F4 /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4DD7BAA21CEFA1F7003BC3F4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BAA31CEFA1F7003BC3F4 /* .gitkeep */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		4DD7BAA71CEFA1F7003BC3F4 /* Stylesheets */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BAA81CEFA1F7003BC3F4 /* Components */,
+				4DD7BACE1CEFA1F7003BC3F4 /* TQTStylesheetImporter.h */,
+				4DD7BACF1CEFA1F7003BC3F4 /* TQTStylesheetImporter.m */,
+				4DD7BAD01CEFA1F7003BC3F4 /* TQTStylesheetImports.h */,
+				4DD7BAD11CEFA1F7003BC3F4 /* TQTStylesheetImports.m */,
+			);
+			path = Stylesheets;
+			sourceTree = "<group>";
+		};
+		4DD7BAA81CEFA1F7003BC3F4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BAA91CEFA1F7003BC3F4 /* Controls */,
+				4DD7BAAD1CEFA1F7003BC3F4 /* Forms */,
+				4DD7BAB71CEFA1F7003BC3F4 /* Lists */,
+				4DD7BABB1CEFA1F7003BC3F4 /* OtherComponents */,
+				4DD7BAC81CEFA1F7003BC3F4 /* TQTBaseStylesheet */,
+				4DD7BACB1CEFA1F7003BC3F4 /* Typography */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4DD7BAA91CEFA1F7003BC3F4 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BAAA1CEFA1F7003BC3F4 /* TQTButtonStylesheet */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		4DD7BAAA1CEFA1F7003BC3F4 /* TQTButtonStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BAAB1CEFA1F7003BC3F4 /* TQTButtonStylesheet.h */,
+				4DD7BAAC1CEFA1F7003BC3F4 /* TQTButtonStylesheet.m */,
+			);
+			path = TQTButtonStylesheet;
+			sourceTree = "<group>";
+		};
+		4DD7BAAD1CEFA1F7003BC3F4 /* Forms */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BAAE1CEFA1F7003BC3F4 /* TQTCustomCheckboxButtonViewStylesheet */,
+				4DD7BAB11CEFA1F7003BC3F4 /* TQTCustomRadioButtonStylesheet */,
+				4DD7BAB41CEFA1F7003BC3F4 /* TQTCustomTextFieldViewStylesheet */,
+			);
+			path = Forms;
+			sourceTree = "<group>";
+		};
+		4DD7BAAE1CEFA1F7003BC3F4 /* TQTCustomCheckboxButtonViewStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BAAF1CEFA1F7003BC3F4 /* TQTCustomCheckboxButtonViewStylesheet.h */,
+				4DD7BAB01CEFA1F7003BC3F4 /* TQTCustomCheckboxButtonViewStylesheet.m */,
+			);
+			path = TQTCustomCheckboxButtonViewStylesheet;
+			sourceTree = "<group>";
+		};
+		4DD7BAB11CEFA1F7003BC3F4 /* TQTCustomRadioButtonStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BAB21CEFA1F7003BC3F4 /* TQTCustomRadioButtonViewStylesheet.h */,
+				4DD7BAB31CEFA1F7003BC3F4 /* TQTCustomRadioButtonViewStylesheet.m */,
+			);
+			path = TQTCustomRadioButtonStylesheet;
+			sourceTree = "<group>";
+		};
+		4DD7BAB41CEFA1F7003BC3F4 /* TQTCustomTextFieldViewStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BAB51CEFA1F7003BC3F4 /* TQTCustomTextFieldViewStylesheet.h */,
+				4DD7BAB61CEFA1F7003BC3F4 /* TQTCustomTextFieldViewStylesheet.m */,
+			);
+			path = TQTCustomTextFieldViewStylesheet;
+			sourceTree = "<group>";
+		};
+		4DD7BAB71CEFA1F7003BC3F4 /* Lists */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BAB81CEFA1F7003BC3F4 /* SampleTableViewItemCellContentViewStylesheet */,
+			);
+			path = Lists;
+			sourceTree = "<group>";
+		};
+		4DD7BAB81CEFA1F7003BC3F4 /* SampleTableViewItemCellContentViewStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BAB91CEFA1F7003BC3F4 /* SampleListItemContentChildViewStylesheet.h */,
+				4DD7BABA1CEFA1F7003BC3F4 /* SampleListItemContentChildViewStylesheet.m */,
+			);
+			path = SampleTableViewItemCellContentViewStylesheet;
+			sourceTree = "<group>";
+		};
+		4DD7BABB1CEFA1F7003BC3F4 /* OtherComponents */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BABC1CEFA1F7003BC3F4 /* LoadingViewStylesheet */,
+				4DD7BABF1CEFA1F7003BC3F4 /* NotificationViewStylesheet */,
+				4DD7BAC21CEFA1F7003BC3F4 /* PlaceholderStylesheet */,
+				4DD7BAC51CEFA1F7003BC3F4 /* TQTViewStylesheet */,
+			);
+			path = OtherComponents;
+			sourceTree = "<group>";
+		};
+		4DD7BABC1CEFA1F7003BC3F4 /* LoadingViewStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BABD1CEFA1F7003BC3F4 /* LoadingViewStylesheet.h */,
+				4DD7BABE1CEFA1F7003BC3F4 /* LoadingViewStylesheet.m */,
+			);
+			path = LoadingViewStylesheet;
+			sourceTree = "<group>";
+		};
+		4DD7BABF1CEFA1F7003BC3F4 /* NotificationViewStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BAC01CEFA1F7003BC3F4 /* NotificationViewStylesheet.h */,
+				4DD7BAC11CEFA1F7003BC3F4 /* NotificationViewStylesheet.m */,
+			);
+			path = NotificationViewStylesheet;
+			sourceTree = "<group>";
+		};
+		4DD7BAC21CEFA1F7003BC3F4 /* PlaceholderStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BAC31CEFA1F7003BC3F4 /* PlaceholderStylesheet.h */,
+				4DD7BAC41CEFA1F7003BC3F4 /* PlaceholderStylesheet.m */,
+			);
+			path = PlaceholderStylesheet;
+			sourceTree = "<group>";
+		};
+		4DD7BAC51CEFA1F7003BC3F4 /* TQTViewStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BAC61CEFA1F7003BC3F4 /* TQTViewStylesheet.h */,
+				4DD7BAC71CEFA1F7003BC3F4 /* TQTViewStylesheet.m */,
+			);
+			path = TQTViewStylesheet;
+			sourceTree = "<group>";
+		};
+		4DD7BAC81CEFA1F7003BC3F4 /* TQTBaseStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BAC91CEFA1F7003BC3F4 /* TQTBaseStylesheet.h */,
+				4DD7BACA1CEFA1F7003BC3F4 /* TQTBaseStylesheet.m */,
+			);
+			path = TQTBaseStylesheet;
+			sourceTree = "<group>";
+		};
+		4DD7BACB1CEFA1F7003BC3F4 /* Typography */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BACC1CEFA1F7003BC3F4 /* TQTTypographyStylesheet.h */,
+				4DD7BACD1CEFA1F7003BC3F4 /* TQTTypographyStylesheet.m */,
+			);
+			path = Typography;
+			sourceTree = "<group>";
+		};
+		4DD7BAD21CEFA1F7003BC3F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BAD31CEFA1F7003BC3F4 /* Constants */,
+				4DD7BADB1CEFA1F7003BC3F4 /* Info.plist */,
+				4DD7BADC1CEFA1F7003BC3F4 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DD7BAD31CEFA1F7003BC3F4 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BAD41CEFA1F7003BC3F4 /* Colors.h */,
+				4DD7BAD51CEFA1F7003BC3F4 /* Components.h */,
+				4DD7BAD61CEFA1F7003BC3F4 /* Constants.h */,
+				4DD7BAD71CEFA1F7003BC3F4 /* Constants.m */,
+				4DD7BAD81CEFA1F7003BC3F4 /* Fonts.h */,
+				4DD7BAD91CEFA1F7003BC3F4 /* PKConstants.h */,
+				4DD7BADA1CEFA1F7003BC3F4 /* UserDefaults.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		4DD7BBEE1CEFA21A003BC3F4 /* onboardFEGuide */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BBEF1CEFA21A003BC3F4 /* MainGuide.storyboard */,
+				4DD7BBF01CEFA21A003BC3F4 /* TQTGuideViewController */,
+			);
+			path = onboardFEGuide;
+			sourceTree = "<group>";
+		};
+		4DD7BBF01CEFA21A003BC3F4 /* TQTGuideViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BBF11CEFA21A003BC3F4 /* TQTComponentsViewController */,
+				4DD7BC221CEFA21A003BC3F4 /* TQTGuideTableViewDataModel.h */,
+				4DD7BC231CEFA21A003BC3F4 /* TQTGuideTableViewDataModel.m */,
+				4DD7BC241CEFA21A003BC3F4 /* TQTGuideViewComponents */,
+				4DD7BC2D1CEFA21A003BC3F4 /* TQTGuideViewController.h */,
+				4DD7BC2E1CEFA21A003BC3F4 /* TQTGuideViewController.m */,
+				4DD7BC2F1CEFA21A003BC3F4 /* TQTGuideViewController.xib */,
+			);
+			path = TQTGuideViewController;
+			sourceTree = "<group>";
+		};
+		4DD7BBF11CEFA21A003BC3F4 /* TQTComponentsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BBF21CEFA21A003BC3F4 /* TQTColorSwatchesViewController */,
+				4DD7BBF51CEFA21A003BC3F4 /* TQTComponentsViewController.h */,
+				4DD7BBF61CEFA21A003BC3F4 /* TQTComponentsViewController.m */,
+				4DD7BBF71CEFA21A003BC3F4 /* TQTComponentsViewController.xib */,
+				4DD7BBF81CEFA21A003BC3F4 /* TQTControlsViewController */,
+				4DD7BBFB1CEFA21A003BC3F4 /* TQTDemoViewController */,
+				4DD7BC0A1CEFA21A003BC3F4 /* TQTFormsViewController */,
+				4DD7BC101CEFA21A003BC3F4 /* TQTListsViewController */,
+				4DD7BC161CEFA21A003BC3F4 /* TQTOtherComponentsViewController */,
+				4DD7BC191CEFA21A003BC3F4 /* TQTProvidersViewController */,
+				4DD7BC1C1CEFA21A003BC3F4 /* TQTTypographyViewController */,
+				4DD7BC1F1CEFA21A003BC3F4 /* TQTViewControllersViewController */,
+			);
+			path = TQTComponentsViewController;
+			sourceTree = "<group>";
+		};
+		4DD7BBF21CEFA21A003BC3F4 /* TQTColorSwatchesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BBF31CEFA21A003BC3F4 /* TQTColorSwatchesViewController.h */,
+				4DD7BBF41CEFA21A003BC3F4 /* TQTColorSwatchesViewController.m */,
+			);
+			path = TQTColorSwatchesViewController;
+			sourceTree = "<group>";
+		};
+		4DD7BBF81CEFA21A003BC3F4 /* TQTControlsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BBF91CEFA21A003BC3F4 /* TQTControlsViewController.h */,
+				4DD7BBFA1CEFA21A003BC3F4 /* TQTControlsViewController.m */,
+			);
+			path = TQTControlsViewController;
+			sourceTree = "<group>";
+		};
+		4DD7BBFB1CEFA21A003BC3F4 /* TQTDemoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BBFC1CEFA21A003BC3F4 /* Home */,
+				4DD7BC081CEFA21A003BC3F4 /* TQTDemoViewController.h */,
+				4DD7BC091CEFA21A003BC3F4 /* TQTDemoViewController.m */,
+			);
+			path = TQTDemoViewController;
+			sourceTree = "<group>";
+		};
+		4DD7BBFC1CEFA21A003BC3F4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BBFD1CEFA21A003BC3F4 /* GuideHomeViewController.h */,
+				4DD7BBFE1CEFA21A003BC3F4 /* GuideHomeViewController.m */,
+				4DD7BBFF1CEFA21A003BC3F4 /* Login */,
+				4DD7BC021CEFA21A003BC3F4 /* PasswordRecovery */,
+				4DD7BC051CEFA21A003BC3F4 /* Signup */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4DD7BBFF1CEFA21A003BC3F4 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BC001CEFA21A003BC3F4 /* GuideLoginViewController.h */,
+				4DD7BC011CEFA21A003BC3F4 /* GuideLoginViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		4DD7BC021CEFA21A003BC3F4 /* PasswordRecovery */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BC031CEFA21A003BC3F4 /* GuidePasswordRecoveryViewController.h */,
+				4DD7BC041CEFA21A003BC3F4 /* GuidePasswordRecoveryViewController.m */,
+			);
+			path = PasswordRecovery;
+			sourceTree = "<group>";
+		};
+		4DD7BC051CEFA21A003BC3F4 /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BC061CEFA21A003BC3F4 /* GuideSignupViewController.h */,
+				4DD7BC071CEFA21A003BC3F4 /* GuideSignupViewController.m */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
+		4DD7BC0A1CEFA21A003BC3F4 /* TQTFormsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BC0B1CEFA21A003BC3F4 /* TQTCustomTextfieldsViewController */,
+				4DD7BC0E1CEFA21A003BC3F4 /* TQTFormsViewController.h */,
+				4DD7BC0F1CEFA21A003BC3F4 /* TQTFormsViewController.m */,
+			);
+			path = TQTFormsViewController;
+			sourceTree = "<group>";
+		};
+		4DD7BC0B1CEFA21A003BC3F4 /* TQTCustomTextfieldsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BC0C1CEFA21A003BC3F4 /* TQTCustomTextfieldsViewController.h */,
+				4DD7BC0D1CEFA21A003BC3F4 /* TQTCustomTextfieldsViewController.m */,
+			);
+			path = TQTCustomTextfieldsViewController;
+			sourceTree = "<group>";
+		};
+		4DD7BC101CEFA21A003BC3F4 /* TQTListsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BC111CEFA21A003BC3F4 /* TQTListsViewController.h */,
+				4DD7BC121CEFA21A003BC3F4 /* TQTListsViewController.m */,
+				4DD7BC131CEFA21A003BC3F4 /* TQTTableViewController */,
+			);
+			path = TQTListsViewController;
+			sourceTree = "<group>";
+		};
+		4DD7BC131CEFA21A003BC3F4 /* TQTTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BC141CEFA21A003BC3F4 /* TQTTableViewController.h */,
+				4DD7BC151CEFA21A003BC3F4 /* TQTTableViewController.m */,
+			);
+			path = TQTTableViewController;
+			sourceTree = "<group>";
+		};
+		4DD7BC161CEFA21A003BC3F4 /* TQTOtherComponentsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BC171CEFA21A003BC3F4 /* TQTOtherComponentsViewController.h */,
+				4DD7BC181CEFA21A003BC3F4 /* TQTOtherComponentsViewController.m */,
+			);
+			path = TQTOtherComponentsViewController;
+			sourceTree = "<group>";
+		};
+		4DD7BC191CEFA21A003BC3F4 /* TQTProvidersViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BC1A1CEFA21A003BC3F4 /* TQTProvidersViewController.h */,
+				4DD7BC1B1CEFA21A003BC3F4 /* TQTProvidersViewController.m */,
+			);
+			path = TQTProvidersViewController;
+			sourceTree = "<group>";
+		};
+		4DD7BC1C1CEFA21A003BC3F4 /* TQTTypographyViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BC1D1CEFA21A003BC3F4 /* TQTTypographyViewController.h */,
+				4DD7BC1E1CEFA21A003BC3F4 /* TQTTypographyViewController.m */,
+			);
+			path = TQTTypographyViewController;
+			sourceTree = "<group>";
+		};
+		4DD7BC1F1CEFA21A003BC3F4 /* TQTViewControllersViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BC201CEFA21A003BC3F4 /* TQTViewControllersViewController.h */,
+				4DD7BC211CEFA21A003BC3F4 /* TQTViewControllersViewController.m */,
+			);
+			path = TQTViewControllersViewController;
+			sourceTree = "<group>";
+		};
+		4DD7BC241CEFA21A003BC3F4 /* TQTGuideViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BC251CEFA21A003BC3F4 /* TQTGuideSubtitleView */,
+				4DD7BC291CEFA21A003BC3F4 /* TQTGuideTitleView */,
+			);
+			path = TQTGuideViewComponents;
+			sourceTree = "<group>";
+		};
+		4DD7BC251CEFA21A003BC3F4 /* TQTGuideSubtitleView */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BC261CEFA21A003BC3F4 /* TQTGuideSubtitleView.h */,
+				4DD7BC271CEFA21A003BC3F4 /* TQTGuideSubtitleView.m */,
+				4DD7BC281CEFA21A003BC3F4 /* TQTGuideSubtitleView.xib */,
+			);
+			path = TQTGuideSubtitleView;
+			sourceTree = "<group>";
+		};
+		4DD7BC291CEFA21A003BC3F4 /* TQTGuideTitleView */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BC2A1CEFA21A003BC3F4 /* TQTGuideTitleView.h */,
+				4DD7BC2B1CEFA21A003BC3F4 /* TQTGuideTitleView.m */,
+				4DD7BC2C1CEFA21A003BC3F4 /* TQTGuideTitleView.xib */,
+			);
+			path = TQTGuideTitleView;
+			sourceTree = "<group>";
+		};
+		4DD7BC801CEFA7CA003BC3F4 /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7BC7B1CEFA7C5003BC3F4 /* HeaderView.h */,
+				4DD7BC7C1CEFA7C5003BC3F4 /* HeaderView.m */,
+				4DD7BC811CEFA88E003BC3F4 /* HeaderView.xib */,
+			);
+			name = HeaderView;
+			sourceTree = "<group>";
+		};
+		5BAC048D1A695923004805CC = {
+			isa = PBXGroup;
+			children = (
+				4DD7B9D31CEFA1F7003BC3F4 /* onboardFE */,
+				4DD7BBEE1CEFA21A003BC3F4 /* onboardFEGuide */,
+				5BAC04971A695923004805CC /* Products */,
+				644846E2A002559CA515DBD2 /* Pods */,
+				0E6D5D2F3C5E1DAE360C2523 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5BAC04971A695923004805CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BAC04961A695923004805CC /* D-onboardFE.app */,
+				4D541BAD1B62E52500985143 /* GD-onboardFE.app */,
+				4D87A8181C2B281300DB3C10 /* DemoD-onboardFE.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		644846E2A002559CA515DBD2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88F4BE94E7912FB436962544 /* Pods.debug.xcconfig */,
+				96727D8030AF30D21A795138 /* Pods.release-staging.xcconfig */,
+				3790B0CA373A572E165522D3 /* Pods.release-production.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D541B681B62E52500985143 /* onboardFEGuide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D541BA91B62E52500985143 /* Build configuration list for PBXNativeTarget "onboardFEGuide" */;
+			buildPhases = (
+				C4A33C4B621C603927C92D87 /* Check Pods Manifest.lock */,
+				4D541B6A1B62E52500985143 /* Sources */,
+				4D541B961B62E52500985143 /* Frameworks */,
+				4D541B981B62E52500985143 /* Resources */,
+				47899BDC7BC36C9563A9BA1F /* Embed Pods Frameworks */,
+				80A84E4CD1E9DD66B7562329 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = onboardFEGuide;
+			productName = onboardFE;
+			productReference = 4D541BAD1B62E52500985143 /* GD-onboardFE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D87A7981C2B281300DB3C10 /* onboardFEDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D87A8141C2B281300DB3C10 /* Build configuration list for PBXNativeTarget "onboardFEDemo" */;
+			buildPhases = (
+				8150127C6FC7A5F2D76F25D1 /* Check Pods Manifest.lock */,
+				4D87A79A1C2B281300DB3C10 /* Sources */,
+				4D87A7F51C2B281300DB3C10 /* Frameworks */,
+				4D87A7F71C2B281300DB3C10 /* Resources */,
+				481498C907F44606673F8B4F /* Embed Pods Frameworks */,
+				5D36AF8699CF640F01CF0027 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = onboardFEDemo;
+			productName = onboardFE;
+			productReference = 4D87A8181C2B281300DB3C10 /* DemoD-onboardFE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BAC04951A695923004805CC /* onboardFE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BAC04B91A695923004805CC /* Build configuration list for PBXNativeTarget "onboardFE" */;
+			buildPhases = (
+				3856DE9EC3DD79E4D24819F2 /* Check Pods Manifest.lock */,
+				5BAC04921A695923004805CC /* Sources */,
+				5BAC04931A695923004805CC /* Frameworks */,
+				5BAC04941A695923004805CC /* Resources */,
+				F23E82460E7A6D5FF9CAFF36 /* Embed Pods Frameworks */,
+				924B502F55C7140BD635DF84 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = onboardFE;
+			productName = onboardFE;
+			productReference = 5BAC04961A695923004805CC /* D-onboardFE.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BAC048E1A695923004805CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Taqtile;
+				TargetAttributes = {
+					5BAC04951A695923004805CC = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 5BAC04911A695923004805CC /* Build configuration list for PBXProject "onboardFE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+			);
+			mainGroup = 5BAC048D1A695923004805CC;
+			productRefGroup = 5BAC04971A695923004805CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BAC04951A695923004805CC /* onboardFE */,
+				4D541B681B62E52500985143 /* onboardFEGuide */,
+				4D87A7981C2B281300DB3C10 /* onboardFEDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D541B981B62E52500985143 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD7BC731CEFA21A003BC3F4 /* TQTGuideTitleView.xib in Resources */,
+				4DD7BB351CEFA1F7003BC3F4 /* TQTCustomRadioButtonView.xib in Resources */,
+				4DD7BBBC1CEFA1F7003BC3F4 /* Main.storyboard in Resources */,
+				4DD7BBB61CEFA1F7003BC3F4 /* Images.xcassets in Resources */,
+				4DD7BBB91CEFA1F7003BC3F4 /* LaunchScreen.xib in Resources */,
+				4DD7BB291CEFA1F7003BC3F4 /* TQTCustomCheckboxButtonView.xib in Resources */,
+				4DD7BB8C1CEFA1F7003BC3F4 /* TQTTitleView.xib in Resources */,
+				4DD7BC791CEFA21A003BC3F4 /* TQTGuideViewController.xib in Resources */,
+				4DD7BB7A1CEFA1F7003BC3F4 /* NotificationView.xib in Resources */,
+				4DD7BC6D1CEFA21A003BC3F4 /* TQTGuideSubtitleView.xib in Resources */,
+				4DD7BB831CEFA1F7003BC3F4 /* PlaceholderView.xib in Resources */,
+				4DD7BC311CEFA21A003BC3F4 /* MainGuide.storyboard in Resources */,
+				4DD7BB231CEFA1F7003BC3F4 /* Messages.strings in Resources */,
+				4DD7BC3A1CEFA21A003BC3F4 /* TQTComponentsViewController.xib in Resources */,
+				4DD7BBE91CEFA1F8003BC3F4 /* Info.plist in Resources */,
+				4DD7BB1D1CEFA1F7003BC3F4 /* .gitkeep in Resources */,
+				4DD7BB9B1CEFA1F7003BC3F4 /* BaseHomeViewController.xib in Resources */,
+				4DD7BBA71CEFA1F7003BC3F4 /* BasePasswordRecoveryViewController.xib in Resources */,
+				4DD7BBA11CEFA1F7003BC3F4 /* BaseLoginViewController.xib in Resources */,
+				4DD7BBB31CEFA1F7003BC3F4 /* .gitkeep in Resources */,
+				4DD7BB651CEFA1F7003BC3F4 /* TQTCustomTextFieldView.xib in Resources */,
+				4DD7BBAA1CEFA1F7003BC3F4 /* BaseHomeViewController.xib in Resources */,
+				4DD7BB741CEFA1F7003BC3F4 /* LoadingView.xib in Resources */,
+				4DD7BBB01CEFA1F7003BC3F4 /* BaseSignupViewController.xib in Resources */,
+				4DD7BC831CEFA88E003BC3F4 /* HeaderView.xib in Resources */,
+				4DD7BB6B1CEFA1F7003BC3F4 /* CustomTableViewCell.xib in Resources */,
+				4DD7BB921CEFA1F7003BC3F4 /* .gitkeep in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D87A7F71C2B281300DB3C10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD7BC741CEFA21A003BC3F4 /* TQTGuideTitleView.xib in Resources */,
+				4DD7BB2A1CEFA1F7003BC3F4 /* TQTCustomCheckboxButtonView.xib in Resources */,
+				4DD7BB241CEFA1F7003BC3F4 /* Messages.strings in Resources */,
+				4DD7BB931CEFA1F7003BC3F4 /* .gitkeep in Resources */,
+				4DD7BB6C1CEFA1F7003BC3F4 /* CustomTableViewCell.xib in Resources */,
+				4DD7BBAB1CEFA1F7003BC3F4 /* BaseHomeViewController.xib in Resources */,
+				4DD7BB661CEFA1F7003BC3F4 /* TQTCustomTextFieldView.xib in Resources */,
+				4DD7BC7A1CEFA21A003BC3F4 /* TQTGuideViewController.xib in Resources */,
+				4DD7BB751CEFA1F7003BC3F4 /* LoadingView.xib in Resources */,
+				4DD7BC6E1CEFA21A003BC3F4 /* TQTGuideSubtitleView.xib in Resources */,
+				4DD7BB8D1CEFA1F7003BC3F4 /* TQTTitleView.xib in Resources */,
+				4DD7BC321CEFA21A003BC3F4 /* MainGuide.storyboard in Resources */,
+				4DD7BBA21CEFA1F7003BC3F4 /* BaseLoginViewController.xib in Resources */,
+				4DD7BC3B1CEFA21A003BC3F4 /* TQTComponentsViewController.xib in Resources */,
+				4DD7BBB71CEFA1F7003BC3F4 /* Images.xcassets in Resources */,
+				4DD7BB1E1CEFA1F7003BC3F4 /* .gitkeep in Resources */,
+				4DD7BBBD1CEFA1F7003BC3F4 /* Main.storyboard in Resources */,
+				4DD7BBA81CEFA1F7003BC3F4 /* BasePasswordRecoveryViewController.xib in Resources */,
+				4DD7BBB41CEFA1F7003BC3F4 /* .gitkeep in Resources */,
+				4DD7BBBA1CEFA1F7003BC3F4 /* LaunchScreen.xib in Resources */,
+				4DD7BB841CEFA1F7003BC3F4 /* PlaceholderView.xib in Resources */,
+				4DD7BB361CEFA1F7003BC3F4 /* TQTCustomRadioButtonView.xib in Resources */,
+				4DD7BBB11CEFA1F7003BC3F4 /* BaseSignupViewController.xib in Resources */,
+				4DD7BB9C1CEFA1F7003BC3F4 /* BaseHomeViewController.xib in Resources */,
+				4DD7BC841CEFA88E003BC3F4 /* HeaderView.xib in Resources */,
+				4DD7BB7B1CEFA1F7003BC3F4 /* NotificationView.xib in Resources */,
+				4DD7BBEA1CEFA1F8003BC3F4 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BAC04941A695923004805CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD7BC721CEFA21A003BC3F4 /* TQTGuideTitleView.xib in Resources */,
+				4DD7BB281CEFA1F7003BC3F4 /* TQTCustomCheckboxButtonView.xib in Resources */,
+				4DD7BB221CEFA1F7003BC3F4 /* Messages.strings in Resources */,
+				4DD7BB911CEFA1F7003BC3F4 /* .gitkeep in Resources */,
+				4DD7BB6A1CEFA1F7003BC3F4 /* CustomTableViewCell.xib in Resources */,
+				4DD7BBA91CEFA1F7003BC3F4 /* BaseHomeViewController.xib in Resources */,
+				4DD7BB641CEFA1F7003BC3F4 /* TQTCustomTextFieldView.xib in Resources */,
+				4DD7BC781CEFA21A003BC3F4 /* TQTGuideViewController.xib in Resources */,
+				4DD7BB731CEFA1F7003BC3F4 /* LoadingView.xib in Resources */,
+				4DD7BC6C1CEFA21A003BC3F4 /* TQTGuideSubtitleView.xib in Resources */,
+				4DD7BB8B1CEFA1F7003BC3F4 /* TQTTitleView.xib in Resources */,
+				4DD7BC301CEFA21A003BC3F4 /* MainGuide.storyboard in Resources */,
+				4DD7BBA01CEFA1F7003BC3F4 /* BaseLoginViewController.xib in Resources */,
+				4DD7BC391CEFA21A003BC3F4 /* TQTComponentsViewController.xib in Resources */,
+				4DD7BBB51CEFA1F7003BC3F4 /* Images.xcassets in Resources */,
+				4DD7BB1C1CEFA1F7003BC3F4 /* .gitkeep in Resources */,
+				4DD7BBBB1CEFA1F7003BC3F4 /* Main.storyboard in Resources */,
+				4DD7BBA61CEFA1F7003BC3F4 /* BasePasswordRecoveryViewController.xib in Resources */,
+				4DD7BBB21CEFA1F7003BC3F4 /* .gitkeep in Resources */,
+				4DD7BBB81CEFA1F7003BC3F4 /* LaunchScreen.xib in Resources */,
+				4DD7BB821CEFA1F7003BC3F4 /* PlaceholderView.xib in Resources */,
+				4DD7BB341CEFA1F7003BC3F4 /* TQTCustomRadioButtonView.xib in Resources */,
+				4DD7BBAF1CEFA1F7003BC3F4 /* BaseSignupViewController.xib in Resources */,
+				4DD7BB9A1CEFA1F7003BC3F4 /* BaseHomeViewController.xib in Resources */,
+				4DD7BC821CEFA88E003BC3F4 /* HeaderView.xib in Resources */,
+				4DD7BB791CEFA1F7003BC3F4 /* NotificationView.xib in Resources */,
+				4DD7BBE81CEFA1F8003BC3F4 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3856DE9EC3DD79E4D24819F2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		47899BDC7BC36C9563A9BA1F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		481498C907F44606673F8B4F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D36AF8699CF640F01CF0027 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80A84E4CD1E9DD66B7562329 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8150127C6FC7A5F2D76F25D1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		924B502F55C7140BD635DF84 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4A33C4B621C603927C92D87 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F23E82460E7A6D5FF9CAFF36 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D541B6A1B62E52500985143 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD7BC7E1CEFA7C5003BC3F4 /* HeaderView.m in Sources */,
+				4DD7BB4D1CEFA1F7003BC3F4 /* DistrictTextFieldView.m in Sources */,
+				4DD7BC671CEFA21A003BC3F4 /* TQTGuideTableViewDataModel.m in Sources */,
+				4DD7BB981CEFA1F7003BC3F4 /* BaseHomeViewController.m in Sources */,
+				4DD7BAEA1CEFA1F7003BC3F4 /* NSString+Clean.m in Sources */,
+				4DD7BB771CEFA1F7003BC3F4 /* NotificationView.m in Sources */,
+				4DD7BC551CEFA21A003BC3F4 /* TQTListsViewController.m in Sources */,
+				4DD7BBD11CEFA1F7003BC3F4 /* NotificationViewStylesheet.m in Sources */,
+				4DD7BBE31CEFA1F8003BC3F4 /* TQTStylesheetImports.m in Sources */,
+				4DD7BC701CEFA21A003BC3F4 /* TQTGuideTitleView.m in Sources */,
+				4DD7BB381CEFA1F7003BC3F4 /* AddressNumberTextFieldView.m in Sources */,
+				4DD7BBE01CEFA1F8003BC3F4 /* TQTStylesheetImporter.m in Sources */,
+				4DD7BAF01CEFA1F7003BC3F4 /* NSString+Validations.m in Sources */,
+				4DD7BBEC1CEFA1F8003BC3F4 /* main.m in Sources */,
+				4DD7BC431CEFA21A003BC3F4 /* GuideLoginViewController.m in Sources */,
+				4DD7BBDA1CEFA1F8003BC3F4 /* TQTBaseStylesheet.m in Sources */,
+				4DD7BB9E1CEFA1F7003BC3F4 /* BaseLoginViewController.m in Sources */,
+				4DD7BB111CEFA1F7003BC3F4 /* UIViewController+IsModal.m in Sources */,
+				4DD7BC761CEFA21A003BC3F4 /* TQTGuideViewController.m in Sources */,
+				4DD7BB711CEFA1F7003BC3F4 /* LoadingView.m in Sources */,
+				4DD7BBBF1CEFA1F7003BC3F4 /* TQTButtonStylesheet.m in Sources */,
+				4DD7BB5C1CEFA1F7003BC3F4 /* StreetTextFieldView.m in Sources */,
+				4DD7BB591CEFA1F7003BC3F4 /* RGTextFieldView.m in Sources */,
+				4DD7BB561CEFA1F7003BC3F4 /* PasswordTextFieldView.m in Sources */,
+				4DD7BBDD1CEFA1F8003BC3F4 /* TQTTypographyStylesheet.m in Sources */,
+				4DD7BBCB1CEFA1F7003BC3F4 /* SampleListItemContentChildViewStylesheet.m in Sources */,
+				4DD7BB441CEFA1F7003BC3F4 /* ConfirmPasswordTextFieldView.m in Sources */,
+				4DD7BBE61CEFA1F8003BC3F4 /* Constants.m in Sources */,
+				4DD7BB951CEFA1F7003BC3F4 /* AppViewController.m in Sources */,
+				4DD7BB621CEFA1F7003BC3F4 /* TQTCustomTextFieldView.m in Sources */,
+				4DD7BB501CEFA1F7003BC3F4 /* EmailTextFieldView.m in Sources */,
+				4DD7BAF31CEFA1F7003BC3F4 /* UIButton+Message.m in Sources */,
+				4DD7BB6E1CEFA1F7003BC3F4 /* LoadingImageView.m in Sources */,
+				4DD7BAF61CEFA1F7003BC3F4 /* UIImage+ImageWithAlpha.m in Sources */,
+				4DD7BC611CEFA21A003BC3F4 /* TQTTypographyViewController.m in Sources */,
+				4DD7BAED1CEFA1F7003BC3F4 /* NSString+DynamicSize.m in Sources */,
+				4DD7BB2F1CEFA1F7003BC3F4 /* TQTCustomPickerView.m in Sources */,
+				4DD7BB3E1CEFA1F7003BC3F4 /* CityTextFieldView.m in Sources */,
+				4DD7BB321CEFA1F7003BC3F4 /* TQTCustomRadioButtonView.m in Sources */,
+				4DD7BB531CEFA1F7003BC3F4 /* NameTextFieldView.m in Sources */,
+				4DD7BB0E1CEFA1F7003BC3F4 /* UIView+TQTAttachToSuperview.m in Sources */,
+				4DD7BC401CEFA21A003BC3F4 /* GuideHomeViewController.m in Sources */,
+				4DD7BADE1CEFA1F7003BC3F4 /* AppDelegate.m in Sources */,
+				4DD7BB171CEFA1F7003BC3F4 /* BasePickerViewManager.m in Sources */,
+				4DD7BB7D1CEFA1F7003BC3F4 /* PlaceholderFactory.m in Sources */,
+				4DD7BB411CEFA1F7003BC3F4 /* ComplementTextFieldView.m in Sources */,
+				4DD7BC371CEFA21A003BC3F4 /* TQTComponentsViewController.m in Sources */,
+				4DD7BB861CEFA1F7003BC3F4 /* TQTBaseComponentsView.m in Sources */,
+				4DD7BB201CEFA1F7003BC3F4 /* Message.m in Sources */,
+				4DD7BB021CEFA1F7003BC3F4 /* UILabel+Message.m in Sources */,
+				4DD7BB471CEFA1F7003BC3F4 /* CPFTextFieldView.m in Sources */,
+				4DD7BBA41CEFA1F7003BC3F4 /* BasePasswordRecoveryViewController.m in Sources */,
+				4DD7BBC81CEFA1F7003BC3F4 /* TQTCustomTextFieldViewStylesheet.m in Sources */,
+				4DD7BB051CEFA1F7003BC3F4 /* UINavigationItem+Title.m in Sources */,
+				4DD7BC5E1CEFA21A003BC3F4 /* TQTProvidersViewController.m in Sources */,
+				4DD7BAFC1CEFA1F7003BC3F4 /* UIImageView+ImageFromUrl.m in Sources */,
+				4DD7BBD71CEFA1F8003BC3F4 /* TQTViewStylesheet.m in Sources */,
+				4DD7BC5B1CEFA21A003BC3F4 /* TQTOtherComponentsViewController.m in Sources */,
+				4DD7BC521CEFA21A003BC3F4 /* TQTFormsViewController.m in Sources */,
+				4DD7BB1A1CEFA1F7003BC3F4 /* BaseTableViewManager.m in Sources */,
+				4DD7BB681CEFA1F7003BC3F4 /* CustomTableViewCell.m in Sources */,
+				4DD7BB141CEFA1F7003BC3F4 /* UIViewController+SetupNavbarButtonWithTitle.m in Sources */,
+				4DD7BC491CEFA21A003BC3F4 /* GuideSignupViewController.m in Sources */,
+				4DD7BB0B1CEFA1F7003BC3F4 /* UIView+Constraints.m in Sources */,
+				4DD7BBD41CEFA1F7003BC3F4 /* PlaceholderStylesheet.m in Sources */,
+				4DD7BC641CEFA21A003BC3F4 /* TQTViewControllersViewController.m in Sources */,
+				4DD7BC461CEFA21A003BC3F4 /* GuidePasswordRecoveryViewController.m in Sources */,
+				4DD7BC4C1CEFA21A003BC3F4 /* TQTDemoViewController.m in Sources */,
+				4DD7BB891CEFA1F7003BC3F4 /* TQTTitleView.m in Sources */,
+				4DD7BC3D1CEFA21A003BC3F4 /* TQTControlsViewController.m in Sources */,
+				4DD7BB3B1CEFA1F7003BC3F4 /* CepTextFieldView.m in Sources */,
+				4DD7BAFF1CEFA1F7003BC3F4 /* UILabel+AttributedText.m in Sources */,
+				4DD7BBCE1CEFA1F7003BC3F4 /* LoadingViewStylesheet.m in Sources */,
+				4DD7BAF91CEFA1F7003BC3F4 /* UIImage+ImageWithColor.m in Sources */,
+				4DD7BBC21CEFA1F7003BC3F4 /* TQTCustomCheckboxButtonViewStylesheet.m in Sources */,
+				4DD7BB801CEFA1F7003BC3F4 /* PlaceholderView.m in Sources */,
+				4DD7BBAD1CEFA1F7003BC3F4 /* BaseSignupViewController.m in Sources */,
+				4DD7BB261CEFA1F7003BC3F4 /* TQTCustomCheckboxButtonView.m in Sources */,
+				4DD7BC4F1CEFA21A003BC3F4 /* TQTCustomTextfieldsViewController.m in Sources */,
+				4DD7BB2C1CEFA1F7003BC3F4 /* StatePickerView.m in Sources */,
+				4DD7BAE71CEFA1F7003BC3F4 /* NSNumber+BrazilFormat.m in Sources */,
+				4DD7BB8F1CEFA1F7003BC3F4 /* StateProvider.m in Sources */,
+				4DD7BB081CEFA1F7003BC3F4 /* UIView+CenterInParent.m in Sources */,
+				4DD7BC581CEFA21A003BC3F4 /* TQTTableViewController.m in Sources */,
+				4DD7BAE11CEFA1F7003BC3F4 /* TQTMissingMethodImplementationException.m in Sources */,
+				4DD7BB4A1CEFA1F7003BC3F4 /* DatePickerView.m in Sources */,
+				4DD7BB5F1CEFA1F7003BC3F4 /* TelephoneTextFieldView.m in Sources */,
+				4DD7BC341CEFA21A003BC3F4 /* TQTColorSwatchesViewController.m in Sources */,
+				4DD7BAE41CEFA1F7003BC3F4 /* NSDate+FormattedDate.m in Sources */,
+				4DD7BBC51CEFA1F7003BC3F4 /* TQTCustomRadioButtonViewStylesheet.m in Sources */,
+				4DD7BC6A1CEFA21A003BC3F4 /* TQTGuideSubtitleView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D87A79A1C2B281300DB3C10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD7BC7F1CEFA7C5003BC3F4 /* HeaderView.m in Sources */,
+				4DD7BB301CEFA1F7003BC3F4 /* TQTCustomPickerView.m in Sources */,
+				4DD7BC681CEFA21A003BC3F4 /* TQTGuideTableViewDataModel.m in Sources */,
+				4DD7BB781CEFA1F7003BC3F4 /* NotificationView.m in Sources */,
+				4DD7BB571CEFA1F7003BC3F4 /* PasswordTextFieldView.m in Sources */,
+				4DD7BB8A1CEFA1F7003BC3F4 /* TQTTitleView.m in Sources */,
+				4DD7BC561CEFA21A003BC3F4 /* TQTListsViewController.m in Sources */,
+				4DD7BAEE1CEFA1F7003BC3F4 /* NSString+DynamicSize.m in Sources */,
+				4DD7BBE71CEFA1F8003BC3F4 /* Constants.m in Sources */,
+				4DD7BC711CEFA21A003BC3F4 /* TQTGuideTitleView.m in Sources */,
+				4DD7BB031CEFA1F7003BC3F4 /* UILabel+Message.m in Sources */,
+				4DD7BBDE1CEFA1F8003BC3F4 /* TQTTypographyStylesheet.m in Sources */,
+				4DD7BB3F1CEFA1F7003BC3F4 /* CityTextFieldView.m in Sources */,
+				4DD7BAFD1CEFA1F7003BC3F4 /* UIImageView+ImageFromUrl.m in Sources */,
+				4DD7BC441CEFA21A003BC3F4 /* GuideLoginViewController.m in Sources */,
+				4DD7BB1B1CEFA1F7003BC3F4 /* BaseTableViewManager.m in Sources */,
+				4DD7BBC31CEFA1F7003BC3F4 /* TQTCustomCheckboxButtonViewStylesheet.m in Sources */,
+				4DD7BB5D1CEFA1F7003BC3F4 /* StreetTextFieldView.m in Sources */,
+				4DD7BC771CEFA21A003BC3F4 /* TQTGuideViewController.m in Sources */,
+				4DD7BB901CEFA1F7003BC3F4 /* StateProvider.m in Sources */,
+				4DD7BBC91CEFA1F7003BC3F4 /* TQTCustomTextFieldViewStylesheet.m in Sources */,
+				4DD7BB691CEFA1F7003BC3F4 /* CustomTableViewCell.m in Sources */,
+				4DD7BAF11CEFA1F7003BC3F4 /* NSString+Validations.m in Sources */,
+				4DD7BB0F1CEFA1F7003BC3F4 /* UIView+TQTAttachToSuperview.m in Sources */,
+				4DD7BB991CEFA1F7003BC3F4 /* BaseHomeViewController.m in Sources */,
+				4DD7BBD21CEFA1F7003BC3F4 /* NotificationViewStylesheet.m in Sources */,
+				4DD7BB2D1CEFA1F7003BC3F4 /* StatePickerView.m in Sources */,
+				4DD7BAE81CEFA1F7003BC3F4 /* NSNumber+BrazilFormat.m in Sources */,
+				4DD7BBE11CEFA1F8003BC3F4 /* TQTStylesheetImporter.m in Sources */,
+				4DD7BB481CEFA1F7003BC3F4 /* CPFTextFieldView.m in Sources */,
+				4DD7BBC61CEFA1F7003BC3F4 /* TQTCustomRadioButtonViewStylesheet.m in Sources */,
+				4DD7BBD51CEFA1F7003BC3F4 /* PlaceholderStylesheet.m in Sources */,
+				4DD7BAEB1CEFA1F7003BC3F4 /* NSString+Clean.m in Sources */,
+				4DD7BBCC1CEFA1F7003BC3F4 /* SampleListItemContentChildViewStylesheet.m in Sources */,
+				4DD7BC621CEFA21A003BC3F4 /* TQTTypographyViewController.m in Sources */,
+				4DD7BAF71CEFA1F7003BC3F4 /* UIImage+ImageWithAlpha.m in Sources */,
+				4DD7BBAE1CEFA1F7003BC3F4 /* BaseSignupViewController.m in Sources */,
+				4DD7BB211CEFA1F7003BC3F4 /* Message.m in Sources */,
+				4DD7BBE41CEFA1F8003BC3F4 /* TQTStylesheetImports.m in Sources */,
+				4DD7BB721CEFA1F7003BC3F4 /* LoadingView.m in Sources */,
+				4DD7BBC01CEFA1F7003BC3F4 /* TQTButtonStylesheet.m in Sources */,
+				4DD7BC411CEFA21A003BC3F4 /* GuideHomeViewController.m in Sources */,
+				4DD7BB4E1CEFA1F7003BC3F4 /* DistrictTextFieldView.m in Sources */,
+				4DD7BAFA1CEFA1F7003BC3F4 /* UIImage+ImageWithColor.m in Sources */,
+				4DD7BB391CEFA1F7003BC3F4 /* AddressNumberTextFieldView.m in Sources */,
+				4DD7BB9F1CEFA1F7003BC3F4 /* BaseLoginViewController.m in Sources */,
+				4DD7BC381CEFA21A003BC3F4 /* TQTComponentsViewController.m in Sources */,
+				4DD7BB331CEFA1F7003BC3F4 /* TQTCustomRadioButtonView.m in Sources */,
+				4DD7BB871CEFA1F7003BC3F4 /* TQTBaseComponentsView.m in Sources */,
+				4DD7BBED1CEFA1F8003BC3F4 /* main.m in Sources */,
+				4DD7BB151CEFA1F7003BC3F4 /* UIViewController+SetupNavbarButtonWithTitle.m in Sources */,
+				4DD7BB271CEFA1F7003BC3F4 /* TQTCustomCheckboxButtonView.m in Sources */,
+				4DD7BAE51CEFA1F7003BC3F4 /* NSDate+FormattedDate.m in Sources */,
+				4DD7BB6F1CEFA1F7003BC3F4 /* LoadingImageView.m in Sources */,
+				4DD7BC5F1CEFA21A003BC3F4 /* TQTProvidersViewController.m in Sources */,
+				4DD7BB121CEFA1F7003BC3F4 /* UIViewController+IsModal.m in Sources */,
+				4DD7BB061CEFA1F7003BC3F4 /* UINavigationItem+Title.m in Sources */,
+				4DD7BC5C1CEFA21A003BC3F4 /* TQTOtherComponentsViewController.m in Sources */,
+				4DD7BC531CEFA21A003BC3F4 /* TQTFormsViewController.m in Sources */,
+				4DD7BB811CEFA1F7003BC3F4 /* PlaceholderView.m in Sources */,
+				4DD7BB181CEFA1F7003BC3F4 /* BasePickerViewManager.m in Sources */,
+				4DD7BBD81CEFA1F8003BC3F4 /* TQTViewStylesheet.m in Sources */,
+				4DD7BC4A1CEFA21A003BC3F4 /* GuideSignupViewController.m in Sources */,
+				4DD7BB7E1CEFA1F7003BC3F4 /* PlaceholderFactory.m in Sources */,
+				4DD7BB421CEFA1F7003BC3F4 /* ComplementTextFieldView.m in Sources */,
+				4DD7BC651CEFA21A003BC3F4 /* TQTViewControllersViewController.m in Sources */,
+				4DD7BC471CEFA21A003BC3F4 /* GuidePasswordRecoveryViewController.m in Sources */,
+				4DD7BC4D1CEFA21A003BC3F4 /* TQTDemoViewController.m in Sources */,
+				4DD7BBDB1CEFA1F8003BC3F4 /* TQTBaseStylesheet.m in Sources */,
+				4DD7BC3E1CEFA21A003BC3F4 /* TQTControlsViewController.m in Sources */,
+				4DD7BB601CEFA1F7003BC3F4 /* TelephoneTextFieldView.m in Sources */,
+				4DD7BB631CEFA1F7003BC3F4 /* TQTCustomTextFieldView.m in Sources */,
+				4DD7BADF1CEFA1F7003BC3F4 /* AppDelegate.m in Sources */,
+				4DD7BB0C1CEFA1F7003BC3F4 /* UIView+Constraints.m in Sources */,
+				4DD7BB001CEFA1F7003BC3F4 /* UILabel+AttributedText.m in Sources */,
+				4DD7BB5A1CEFA1F7003BC3F4 /* RGTextFieldView.m in Sources */,
+				4DD7BB091CEFA1F7003BC3F4 /* UIView+CenterInParent.m in Sources */,
+				4DD7BB3C1CEFA1F7003BC3F4 /* CepTextFieldView.m in Sources */,
+				4DD7BC501CEFA21A003BC3F4 /* TQTCustomTextfieldsViewController.m in Sources */,
+				4DD7BB4B1CEFA1F7003BC3F4 /* DatePickerView.m in Sources */,
+				4DD7BAE21CEFA1F7003BC3F4 /* TQTMissingMethodImplementationException.m in Sources */,
+				4DD7BB961CEFA1F7003BC3F4 /* AppViewController.m in Sources */,
+				4DD7BB451CEFA1F7003BC3F4 /* ConfirmPasswordTextFieldView.m in Sources */,
+				4DD7BC591CEFA21A003BC3F4 /* TQTTableViewController.m in Sources */,
+				4DD7BB511CEFA1F7003BC3F4 /* EmailTextFieldView.m in Sources */,
+				4DD7BAF41CEFA1F7003BC3F4 /* UIButton+Message.m in Sources */,
+				4DD7BB541CEFA1F7003BC3F4 /* NameTextFieldView.m in Sources */,
+				4DD7BC351CEFA21A003BC3F4 /* TQTColorSwatchesViewController.m in Sources */,
+				4DD7BBCF1CEFA1F7003BC3F4 /* LoadingViewStylesheet.m in Sources */,
+				4DD7BBA51CEFA1F7003BC3F4 /* BasePasswordRecoveryViewController.m in Sources */,
+				4DD7BC6B1CEFA21A003BC3F4 /* TQTGuideSubtitleView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BAC04921A695923004805CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD7BC7D1CEFA7C5003BC3F4 /* HeaderView.m in Sources */,
+				4DD7BB2E1CEFA1F7003BC3F4 /* TQTCustomPickerView.m in Sources */,
+				4DD7BC661CEFA21A003BC3F4 /* TQTGuideTableViewDataModel.m in Sources */,
+				4DD7BB761CEFA1F7003BC3F4 /* NotificationView.m in Sources */,
+				4DD7BB551CEFA1F7003BC3F4 /* PasswordTextFieldView.m in Sources */,
+				4DD7BB881CEFA1F7003BC3F4 /* TQTTitleView.m in Sources */,
+				4DD7BC541CEFA21A003BC3F4 /* TQTListsViewController.m in Sources */,
+				4DD7BAEC1CEFA1F7003BC3F4 /* NSString+DynamicSize.m in Sources */,
+				4DD7BBE51CEFA1F8003BC3F4 /* Constants.m in Sources */,
+				4DD7BC6F1CEFA21A003BC3F4 /* TQTGuideTitleView.m in Sources */,
+				4DD7BB011CEFA1F7003BC3F4 /* UILabel+Message.m in Sources */,
+				4DD7BBDC1CEFA1F8003BC3F4 /* TQTTypographyStylesheet.m in Sources */,
+				4DD7BB3D1CEFA1F7003BC3F4 /* CityTextFieldView.m in Sources */,
+				4DD7BAFB1CEFA1F7003BC3F4 /* UIImageView+ImageFromUrl.m in Sources */,
+				4DD7BC421CEFA21A003BC3F4 /* GuideLoginViewController.m in Sources */,
+				4DD7BB191CEFA1F7003BC3F4 /* BaseTableViewManager.m in Sources */,
+				4DD7BBC11CEFA1F7003BC3F4 /* TQTCustomCheckboxButtonViewStylesheet.m in Sources */,
+				4DD7BB5B1CEFA1F7003BC3F4 /* StreetTextFieldView.m in Sources */,
+				4DD7BC751CEFA21A003BC3F4 /* TQTGuideViewController.m in Sources */,
+				4DD7BB8E1CEFA1F7003BC3F4 /* StateProvider.m in Sources */,
+				4DD7BBC71CEFA1F7003BC3F4 /* TQTCustomTextFieldViewStylesheet.m in Sources */,
+				4DD7BB671CEFA1F7003BC3F4 /* CustomTableViewCell.m in Sources */,
+				4DD7BAEF1CEFA1F7003BC3F4 /* NSString+Validations.m in Sources */,
+				4DD7BB0D1CEFA1F7003BC3F4 /* UIView+TQTAttachToSuperview.m in Sources */,
+				4DD7BB971CEFA1F7003BC3F4 /* BaseHomeViewController.m in Sources */,
+				4DD7BBD01CEFA1F7003BC3F4 /* NotificationViewStylesheet.m in Sources */,
+				4DD7BB2B1CEFA1F7003BC3F4 /* StatePickerView.m in Sources */,
+				4DD7BAE61CEFA1F7003BC3F4 /* NSNumber+BrazilFormat.m in Sources */,
+				4DD7BBDF1CEFA1F8003BC3F4 /* TQTStylesheetImporter.m in Sources */,
+				4DD7BB461CEFA1F7003BC3F4 /* CPFTextFieldView.m in Sources */,
+				4DD7BBC41CEFA1F7003BC3F4 /* TQTCustomRadioButtonViewStylesheet.m in Sources */,
+				4DD7BBD31CEFA1F7003BC3F4 /* PlaceholderStylesheet.m in Sources */,
+				4DD7BAE91CEFA1F7003BC3F4 /* NSString+Clean.m in Sources */,
+				4DD7BBCA1CEFA1F7003BC3F4 /* SampleListItemContentChildViewStylesheet.m in Sources */,
+				4DD7BC601CEFA21A003BC3F4 /* TQTTypographyViewController.m in Sources */,
+				4DD7BAF51CEFA1F7003BC3F4 /* UIImage+ImageWithAlpha.m in Sources */,
+				4DD7BBAC1CEFA1F7003BC3F4 /* BaseSignupViewController.m in Sources */,
+				4DD7BB1F1CEFA1F7003BC3F4 /* Message.m in Sources */,
+				4DD7BBE21CEFA1F8003BC3F4 /* TQTStylesheetImports.m in Sources */,
+				4DD7BB701CEFA1F7003BC3F4 /* LoadingView.m in Sources */,
+				4DD7BBBE1CEFA1F7003BC3F4 /* TQTButtonStylesheet.m in Sources */,
+				4DD7BC3F1CEFA21A003BC3F4 /* GuideHomeViewController.m in Sources */,
+				4DD7BB4C1CEFA1F7003BC3F4 /* DistrictTextFieldView.m in Sources */,
+				4DD7BAF81CEFA1F7003BC3F4 /* UIImage+ImageWithColor.m in Sources */,
+				4DD7BB371CEFA1F7003BC3F4 /* AddressNumberTextFieldView.m in Sources */,
+				4DD7BB9D1CEFA1F7003BC3F4 /* BaseLoginViewController.m in Sources */,
+				4DD7BC361CEFA21A003BC3F4 /* TQTComponentsViewController.m in Sources */,
+				4DD7BB311CEFA1F7003BC3F4 /* TQTCustomRadioButtonView.m in Sources */,
+				4DD7BB851CEFA1F7003BC3F4 /* TQTBaseComponentsView.m in Sources */,
+				4DD7BBEB1CEFA1F8003BC3F4 /* main.m in Sources */,
+				4DD7BB131CEFA1F7003BC3F4 /* UIViewController+SetupNavbarButtonWithTitle.m in Sources */,
+				4DD7BB251CEFA1F7003BC3F4 /* TQTCustomCheckboxButtonView.m in Sources */,
+				4DD7BAE31CEFA1F7003BC3F4 /* NSDate+FormattedDate.m in Sources */,
+				4DD7BB6D1CEFA1F7003BC3F4 /* LoadingImageView.m in Sources */,
+				4DD7BC5D1CEFA21A003BC3F4 /* TQTProvidersViewController.m in Sources */,
+				4DD7BB101CEFA1F7003BC3F4 /* UIViewController+IsModal.m in Sources */,
+				4DD7BB041CEFA1F7003BC3F4 /* UINavigationItem+Title.m in Sources */,
+				4DD7BC5A1CEFA21A003BC3F4 /* TQTOtherComponentsViewController.m in Sources */,
+				4DD7BC511CEFA21A003BC3F4 /* TQTFormsViewController.m in Sources */,
+				4DD7BB7F1CEFA1F7003BC3F4 /* PlaceholderView.m in Sources */,
+				4DD7BB161CEFA1F7003BC3F4 /* BasePickerViewManager.m in Sources */,
+				4DD7BBD61CEFA1F8003BC3F4 /* TQTViewStylesheet.m in Sources */,
+				4DD7BC481CEFA21A003BC3F4 /* GuideSignupViewController.m in Sources */,
+				4DD7BB7C1CEFA1F7003BC3F4 /* PlaceholderFactory.m in Sources */,
+				4DD7BB401CEFA1F7003BC3F4 /* ComplementTextFieldView.m in Sources */,
+				4DD7BC631CEFA21A003BC3F4 /* TQTViewControllersViewController.m in Sources */,
+				4DD7BC451CEFA21A003BC3F4 /* GuidePasswordRecoveryViewController.m in Sources */,
+				4DD7BC4B1CEFA21A003BC3F4 /* TQTDemoViewController.m in Sources */,
+				4DD7BBD91CEFA1F8003BC3F4 /* TQTBaseStylesheet.m in Sources */,
+				4DD7BC3C1CEFA21A003BC3F4 /* TQTControlsViewController.m in Sources */,
+				4DD7BB5E1CEFA1F7003BC3F4 /* TelephoneTextFieldView.m in Sources */,
+				4DD7BB611CEFA1F7003BC3F4 /* TQTCustomTextFieldView.m in Sources */,
+				4DD7BADD1CEFA1F7003BC3F4 /* AppDelegate.m in Sources */,
+				4DD7BB0A1CEFA1F7003BC3F4 /* UIView+Constraints.m in Sources */,
+				4DD7BAFE1CEFA1F7003BC3F4 /* UILabel+AttributedText.m in Sources */,
+				4DD7BB581CEFA1F7003BC3F4 /* RGTextFieldView.m in Sources */,
+				4DD7BB071CEFA1F7003BC3F4 /* UIView+CenterInParent.m in Sources */,
+				4DD7BB3A1CEFA1F7003BC3F4 /* CepTextFieldView.m in Sources */,
+				4DD7BC4E1CEFA21A003BC3F4 /* TQTCustomTextfieldsViewController.m in Sources */,
+				4DD7BB491CEFA1F7003BC3F4 /* DatePickerView.m in Sources */,
+				4DD7BAE01CEFA1F7003BC3F4 /* TQTMissingMethodImplementationException.m in Sources */,
+				4DD7BB941CEFA1F7003BC3F4 /* AppViewController.m in Sources */,
+				4DD7BB431CEFA1F7003BC3F4 /* ConfirmPasswordTextFieldView.m in Sources */,
+				4DD7BC571CEFA21A003BC3F4 /* TQTTableViewController.m in Sources */,
+				4DD7BB4F1CEFA1F7003BC3F4 /* EmailTextFieldView.m in Sources */,
+				4DD7BAF21CEFA1F7003BC3F4 /* UIButton+Message.m in Sources */,
+				4DD7BB521CEFA1F7003BC3F4 /* NameTextFieldView.m in Sources */,
+				4DD7BC331CEFA21A003BC3F4 /* TQTColorSwatchesViewController.m in Sources */,
+				4DD7BBCD1CEFA1F7003BC3F4 /* LoadingViewStylesheet.m in Sources */,
+				4DD7BBA31CEFA1F7003BC3F4 /* BasePasswordRecoveryViewController.m in Sources */,
+				4DD7BC691CEFA21A003BC3F4 /* TQTGuideSubtitleView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4D541BAA1B62E52500985143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88F4BE94E7912FB436962544 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID).guide.test";
+				PRODUCT_NAME = "GD-$(APP_NAME)";
+				STORYBOARD = MainGuide;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4D541BAB1B62E52500985143 /* Release-Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96727D8030AF30D21A795138 /* Pods.release-staging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID).guide.staging";
+				PRODUCT_NAME = "GQA-$(APP_NAME)";
+				STORYBOARD = MainGuide;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Release-Staging";
+		};
+		4D541BAC1B62E52500985143 /* Release-Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3790B0CA373A572E165522D3 /* Pods.release-production.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID).guide";
+				PRODUCT_NAME = "G-$(APP_NAME)";
+				STORYBOARD = MainGuide;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Release-Production";
+		};
+		4D87A8151C2B281300DB3C10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88F4BE94E7912FB436962544 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEMO=1",
+					"$(inherited)",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID).demo.test";
+				PRODUCT_NAME = "DemoD-$(APP_NAME)";
+				STORYBOARD = Main;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4D87A8161C2B281300DB3C10 /* Release-Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96727D8030AF30D21A795138 /* Pods.release-staging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEMO=1",
+					"$(inherited)",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID).demo.staging";
+				PRODUCT_NAME = "DemoQA-$(APP_NAME)";
+				STORYBOARD = Main;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Release-Staging";
+		};
+		4D87A8171C2B281300DB3C10 /* Release-Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3790B0CA373A572E165522D3 /* Pods.release-production.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEMO=1",
+					"$(inherited)",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID).demo";
+				PRODUCT_NAME = "Demo-$(APP_NAME)";
+				STORYBOARD = Main;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Release-Production";
+		};
+		5BAC04B71A695923004805CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APP_NAME = onboardFE;
+				BUNDLE_ID = taqtile.onboardfe;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"ENV_DEVELOPMENT=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "onboardFE/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STORYBOARD = Main;
+			};
+			name = Debug;
+		};
+		5BAC04B81A695923004805CC /* Release-Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APP_NAME = onboardFE;
+				BUNDLE_ID = taqtile.onboardfe;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"ENV_STAGING=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "onboardFE/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				STORYBOARD = Main;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release-Staging";
+		};
+		5BAC04BA1A695923004805CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88F4BE94E7912FB436962544 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID).test";
+				PRODUCT_NAME = "D-$(APP_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5BAC04BB1A695923004805CC /* Release-Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96727D8030AF30D21A795138 /* Pods.release-staging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID).staging";
+				PRODUCT_NAME = "QA-$(APP_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Release-Staging";
+		};
+		5BFCA8D61A792935001B1BA5 /* Release-Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APP_NAME = onboardFE;
+				BUNDLE_ID = taqtile.onboardfe;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"ENV_PRODUCTION=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "onboardFE/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				STORYBOARD = Main;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release-Production";
+		};
+		5BFCA8D71A792935001B1BA5 /* Release-Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3790B0CA373A572E165522D3 /* Pods.release-production.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID)";
+				PRODUCT_NAME = "$(APP_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Release-Production";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D541BA91B62E52500985143 /* Build configuration list for PBXNativeTarget "onboardFEGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D541BAA1B62E52500985143 /* Debug */,
+				4D541BAB1B62E52500985143 /* Release-Staging */,
+				4D541BAC1B62E52500985143 /* Release-Production */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release-Production";
+		};
+		4D87A8141C2B281300DB3C10 /* Build configuration list for PBXNativeTarget "onboardFEDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D87A8151C2B281300DB3C10 /* Debug */,
+				4D87A8161C2B281300DB3C10 /* Release-Staging */,
+				4D87A8171C2B281300DB3C10 /* Release-Production */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release-Production";
+		};
+		5BAC04911A695923004805CC /* Build configuration list for PBXProject "onboardFE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BAC04B71A695923004805CC /* Debug */,
+				5BAC04B81A695923004805CC /* Release-Staging */,
+				5BFCA8D61A792935001B1BA5 /* Release-Production */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release-Production";
+		};
+		5BAC04B91A695923004805CC /* Build configuration list for PBXNativeTarget "onboardFE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BAC04BA1A695923004805CC /* Debug */,
+				5BAC04BB1A695923004805CC /* Release-Staging */,
+				5BFCA8D71A792935001B1BA5 /* Release-Production */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release-Production";
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BAC048E1A695923004805CC /* Project object */;
+}
