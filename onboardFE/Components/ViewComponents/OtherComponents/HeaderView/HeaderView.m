@@ -8,7 +8,23 @@
 
 #import "HeaderView.h"
 
+@interface HeaderView ()
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+
+@end
 @implementation HeaderView
+
+-(void)setupOnInitWithCoder {
+    
+}
+
+-(void)setupOnInitWithFrame {
+    
+}
+
+-(void)setTitle:(NSString *)title {
+    [self.titleLabel setText:title];
+}
 
 /*
 // Only override drawRect: if you perform custom drawing.

@@ -10,4 +10,6 @@
 
 @interface HeaderView : TQTBaseComponentsView
 
+-(void)setTitle:(NSString *)title;
+
 @end

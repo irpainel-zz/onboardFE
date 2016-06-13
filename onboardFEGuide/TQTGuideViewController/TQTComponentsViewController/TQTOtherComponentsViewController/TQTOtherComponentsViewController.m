@@ -13,6 +13,7 @@
 #import "NotificationView.h"
 #import "PlaceholderView.h"
 #import "PlaceholderFactory.h"
+#import "HeaderView.h"
 
 @interface TQTOtherComponentsViewController ()
 
@@ -54,6 +55,8 @@
     [self addButtonWithTitle:@"Work in progress placeholder" selector:@selector(showWIPPlaceholder)];
     [self addButtonWithTitle:@"No connection placeholder" selector:@selector(showNoConnectionPlaceholder)];
     [self addButtonWithTitle:@"No product found placeholder" selector:@selector(showNoProductFoundPlaceholder)];
+    
+    [self addHeaderView];
 }
 
 #pragma mark - private
@@ -131,4 +134,13 @@
     }
     return _loadingView;
 }
+
+#pragma mark - addHeaderView
+- (void)addHeaderView {
+    [self addGuideTitleWithText:[[HeaderView class] description]];
+    HeaderView *headerView = (HeaderView *)[self addViewWithDefaultMarginsAndClass:[HeaderView class] height:0];
+    [headerView setTitle:@"Teste"];
+    [self updateViewConstraints];
+}
+
 @end
